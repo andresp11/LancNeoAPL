@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="dsAceroRep" targetNamespace="http://www.tempuri.org/dsAceroRep.xsd" xmlns:mstns="http://www.tempuri.org/dsAceroRep.xsd"
+	xmlns="http://www.tempuri.org/dsAceroRep.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="dsAceroRep" msdata:IsDataSet="true" msdata:Locale="es-MX">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="AceroRep">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Folio" type="xs:string" minOccurs="0" />
+							<xs:element name="IdObra" type="xs:string" minOccurs="0" />
+							<xs:element name="ConsObra" type="xs:short" minOccurs="0" />
+							<xs:element name="FMuestreo" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FEnsaye" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Finforme" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Lab" type="xs:short" minOccurs="0" />
+							<xs:element name="Anos" type="xs:int" minOccurs="0" />
+							<xs:element name="Semana" type="xs:short" minOccurs="0" />
+							<xs:element name="Hoja" type="xs:int" minOccurs="0" />
+							<xs:element name="MuesEn" type="xs:string" minOccurs="0" />
+							<xs:element name="Observac" type="xs:string" minOccurs="0" />
+							<xs:element name="Especifica" type="xs:short" minOccurs="0" />
+							<xs:element name="Numero" type="xs:string" minOccurs="0" />
+							<xs:element name="Grado" type="xs:string" minOccurs="0" />
+							<xs:element name="Masa" type="xs:decimal" minOccurs="0" />
+							<xs:element name="EsfLE" type="xs:int" minOccurs="0" />
+							<xs:element name="EsfMAX" type="xs:int" minOccurs="0" />
+							<xs:element name="Alarga" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Separa" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Altura" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Ancho" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Inclina" type="xs:string" minOccurs="0" />
+							<xs:element name="Doblado" type="xs:string" minOccurs="0" />
+							<xs:element name="Muestra" type="xs:short" minOccurs="0" />
+							<xs:element name="MasaR" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Area" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CargaLE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CargaMax" type="xs:decimal" minOccurs="0" />
+							<xs:element name="EsfLER" type="xs:int" minOccurs="0" />
+							<xs:element name="EsfMAXR" type="xs:int" minOccurs="0" />
+							<xs:element name="AlargaR" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DobladoR" type="xs:string" minOccurs="0" />
+							<xs:element name="SeparaR" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AlturaR" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AnchoR" type="xs:decimal" minOccurs="0" />
+							<xs:element name="InclinaR" type="xs:string" minOccurs="0" />
+							<xs:element name="Observa" type="xs:string" minOccurs="0" />
+							<xs:element name="Observa1" type="xs:string" minOccurs="0" />
+							<xs:element name="Nota" type="xs:int" minOccurs="0" />
+							<xs:element name="Nota1" type="xs:int" minOccurs="0" />
+							<xs:element name="Razonsocial" type="xs:string" minOccurs="0" />
+							<xs:element name="Ubicacion" type="xs:string" minOccurs="0" />
+							<xs:element name="Colonia" type="xs:string" minOccurs="0" />
+							<xs:element name="Nominal" type="xs:string" minOccurs="0" />
+							<xs:element name="Milimetros" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Zona" type="xs:string" minOccurs="0" />
+							<xs:element name="anominal" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RTEF" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RTEFR" type="xs:decimal" />
+							<xs:element name="Colada" type="xs:string" minOccurs="0" />
+							<xs:element name="Remesa" type="xs:string" minOccurs="0" />
+							<xs:element name="Atado" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Normas">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdNorma" type="xs:short" />
+							<xs:element name="Informe" type="xs:string" minOccurs="0" />
+							<xs:element name="Normas" type="xs:string" minOccurs="0" />
+							<xs:element name="Titulo" type="xs:string" minOccurs="0" />
+							<xs:element name="IdInforme" type="xs:string" minOccurs="0" />
+							<xs:element name="Norma1" type="xs:string" minOccurs="0" />
+							<xs:element name="Norma2" type="xs:string" minOccurs="0" />
+							<xs:element name="Norma3" type="xs:string" minOccurs="0" />
+							<xs:element name="Norma4" type="xs:string" minOccurs="0" />
+							<xs:element name="Norma5" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="dsAceroRepKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Normas" />
+			<xs:field xpath="mstns:IdNorma" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

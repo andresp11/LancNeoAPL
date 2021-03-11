@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsAgregado" targetNamespace="http://www.tempuri.org/dsAgregado.xsd" xmlns:mstns="http://www.tempuri.org/dsAgregado.xsd" xmlns="http://www.tempuri.org/dsAgregado.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsAgregado" msdata:IsDataSet="true" msdata:Locale="es-MX">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Agregado">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdAgregado" type="xs:int" />
+              <xs:element name="Agregado" type="xs:string" minOccurs="0" />
+              <xs:element name="Tipo" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Agregado" />
+      <xs:field xpath="mstns:IdAgregado" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

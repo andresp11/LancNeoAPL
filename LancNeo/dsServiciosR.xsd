@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="dsServiciosR" targetNamespace="http://www.tempuri.org/dsServiciosR.xsd" xmlns:mstns="http://www.tempuri.org/dsServiciosR.xsd"
+	xmlns="http://www.tempuri.org/dsServiciosR.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="dsServiciosR" msdata:IsDataSet="true" msdata:Locale="es-MX">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="ServiciosRealizados">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdObras" type="xs:string" minOccurs="0" />
+							<xs:element name="VisitasS" type="xs:int" minOccurs="0" />
+							<xs:element name="VisitasAdS" type="xs:int" minOccurs="0" />
+							<xs:element name="VisitasTTS" type="xs:int" minOccurs="0" />
+							<xs:element name="Semana" type="xs:short" minOccurs="0" />
+							<xs:element name="mess" type="xs:short" minOccurs="0" />
+							<xs:element name="anos" type="xs:short" minOccurs="0" />
+							<xs:element name="Fecha" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Diarias" msdata:ReadOnly="true" type="xs:short" minOccurs="0" />
+							<xs:element name="Semanal" msdata:ReadOnly="true" type="xs:short" minOccurs="0" />
+							<xs:element name="Mensual" msdata:ReadOnly="true" type="xs:short" minOccurs="0" />
+							<xs:element name="DiariaA" msdata:ReadOnly="true" type="xs:short" minOccurs="0" />
+							<xs:element name="SemanaA" msdata:ReadOnly="true" type="xs:short" minOccurs="0" />
+							<xs:element name="MensuaA" msdata:ReadOnly="true" type="xs:short" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Obra">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Idobra" type="xs:string" />
+							<xs:element name="PresupuestoZ" type="xs:string" minOccurs="0" />
+							<xs:element name="Duracion" type="xs:short" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

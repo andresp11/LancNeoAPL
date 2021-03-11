@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLiquid" targetNamespace="http://tempuri.org/dsLiquid.xsd" xmlns:mstns="http://tempuri.org/dsLiquid.xsd" xmlns="http://tempuri.org/dsLiquid.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLiquid" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLiquid" msprop:Generator_DataSetName="dsLiquid">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LiquidoMdor" msprop:Generator_TableClassName="LiquidoMdorDataTable" msprop:Generator_TableVarName="tableLiquidoMdor" msprop:Generator_TablePropName="LiquidoMdor" msprop:Generator_RowDeletingName="LiquidoMdorRowDeleting" msprop:Generator_RowChangingName="LiquidoMdorRowChanging" msprop:Generator_RowEvHandlerName="LiquidoMdorRowChangeEventHandler" msprop:Generator_RowDeletedName="LiquidoMdorRowDeleted" msprop:Generator_UserTableName="LiquidoMdor" msprop:Generator_RowChangedName="LiquidoMdorRowChanged" msprop:Generator_RowEvArgName="LiquidoMdorRowChangeEvent" msprop:Generator_RowClassName="LiquidoMdorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdObra" msprop:Generator_ColumnVarNameInTable="columnIdObra" msprop:Generator_ColumnPropNameInRow="IdObra" msprop:Generator_ColumnPropNameInTable="IdObraColumn" msprop:Generator_UserColumnName="IdObra">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FOLIO" msprop:Generator_ColumnVarNameInTable="columnFOLIO" msprop:Generator_ColumnPropNameInRow="FOLIO" msprop:Generator_ColumnPropNameInTable="FOLIOColumn" msprop:Generator_UserColumnName="FOLIO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ConsObra" msprop:Generator_ColumnVarNameInTable="columnConsObra" msprop:Generator_ColumnPropNameInRow="ConsObra" msprop:Generator_ColumnPropNameInTable="ConsObraColumn" msprop:Generator_UserColumnName="ConsObra" type="xs:short" />
+              <xs:element name="Fecha" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Procedimiento" msprop:Generator_ColumnVarNameInTable="columnProcedimiento" msprop:Generator_ColumnPropNameInRow="Procedimiento" msprop:Generator_ColumnPropNameInTable="ProcedimientoColumn" msprop:Generator_UserColumnName="Procedimiento" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Norma" msprop:Generator_ColumnVarNameInTable="columnNorma" msprop:Generator_ColumnPropNameInRow="Norma" msprop:Generator_ColumnPropNameInTable="NormaColumn" msprop:Generator_UserColumnName="Norma" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LiquidoMdor" />
+      <xs:field xpath="mstns:FOLIO" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

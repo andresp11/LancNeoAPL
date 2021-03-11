@@ -1,0 +1,84 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="dsConcentrado" targetNamespace="http://www.tempuri.org/dsConcentrado.xsd" xmlns:mstns="http://www.tempuri.org/dsConcentrado.xsd"
+	xmlns="http://www.tempuri.org/dsConcentrado.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="dsConcentrado" msdata:IsDataSet="true" msdata:Locale="es-MX">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Repdetcon">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdObras" type="xs:string" minOccurs="0" />
+							<xs:element name="Fechas" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Semana" type="xs:short" minOccurs="0" />
+							<xs:element name="Muestra" type="xs:int" minOccurs="0" />
+							<xs:element name="MuestraF" type="xs:int" minOccurs="0" />
+							<xs:element name="MuestraN" type="xs:int" minOccurs="0" />
+							<xs:element name="Elemento" type="xs:string" minOccurs="0" />
+							<xs:element name="Nivel" type="xs:string" minOccurs="0" />
+							<xs:element name="Hora" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Volumen" type="xs:double" minOccurs="0" />
+							<xs:element name="Textra" type="xs:decimal" minOccurs="0" />
+							<xs:element name="NoEco" type="xs:short" minOccurs="0" />
+							<xs:element name="NoecoF" type="xs:short" minOccurs="0" />
+							<xs:element name="Htrabajadas" type="xs:decimal" minOccurs="0" />
+							<xs:element name="orden" type="xs:int" minOccurs="0" />
+							<xs:element name="MorteroI" type="xs:string" minOccurs="0" />
+							<xs:element name="MorteroC" type="xs:short" minOccurs="0" />
+							<xs:element name="MorteroQ" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AceroAI" type="xs:string" minOccurs="0" />
+							<xs:element name="AceroAC" type="xs:short" minOccurs="0" />
+							<xs:element name="AceroAQ" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AceroBI" type="xs:string" minOccurs="0" />
+							<xs:element name="AceroBC" type="xs:short" minOccurs="0" />
+							<xs:element name="AceroBQ" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AceroCI" type="xs:string" minOccurs="0" />
+							<xs:element name="AceroCC" type="xs:short" minOccurs="0" />
+							<xs:element name="AceroCQ" type="xs:decimal" minOccurs="0" />
+							<xs:element name="VigasI" type="xs:string" minOccurs="0" />
+							<xs:element name="VigasC" type="xs:short" minOccurs="0" />
+							<xs:element name="VigasQ" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TensionI" type="xs:string" minOccurs="0" />
+							<xs:element name="TensionC" type="xs:short" minOccurs="0" />
+							<xs:element name="TensionQ" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SoldaI" type="xs:string" minOccurs="0" />
+							<xs:element name="SoldaC" type="xs:short" minOccurs="0" />
+							<xs:element name="SoldaQ" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CompactI" type="xs:string" minOccurs="0" />
+							<xs:element name="CompactC" type="xs:short" minOccurs="0" />
+							<xs:element name="CompactQ" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PrefabrI" type="xs:string" minOccurs="0" />
+							<xs:element name="PrefabrC" type="xs:short" minOccurs="0" />
+							<xs:element name="PrefabrQ" type="xs:decimal" minOccurs="0" />
+							<xs:element name="VisualI" type="xs:string" minOccurs="0" />
+							<xs:element name="VisualC" type="xs:short" minOccurs="0" />
+							<xs:element name="VisualQ" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CalifiI" type="xs:string" minOccurs="0" />
+							<xs:element name="CalifiC" type="xs:short" minOccurs="0" />
+							<xs:element name="CalifiQ" type="xs:decimal" minOccurs="0" />
+							<xs:element name="LQPenI" type="xs:string" minOccurs="0" />
+							<xs:element name="LQPenC" type="xs:short" minOccurs="0" />
+							<xs:element name="LQPenQ" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AsshtoI" type="xs:string" minOccurs="0" />
+							<xs:element name="AsshtoC" type="xs:short" minOccurs="0" />
+							<xs:element name="AsshtoQ" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RadiogI" type="xs:string" minOccurs="0" />
+							<xs:element name="RadiogC" type="xs:short" minOccurs="0" />
+							<xs:element name="RadiogQ" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Hoja" type="xs:int" minOccurs="0" />
+							<xs:element name="apl1" type="xs:short" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Repdetcon1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Principal" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Adicional" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

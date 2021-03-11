@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsConcretoSolicitado" targetNamespace="http://www.tempuri.org/dsConcretoSolicitado.xsd" xmlns:mstns="http://www.tempuri.org/dsConcretoSolicitado.xsd" xmlns="http://www.tempuri.org/dsConcretoSolicitado.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsConcretoSolicitado" msdata:IsDataSet="true" msdata:Locale="es-MX">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Experiencia">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdConcretera" type="xs:string" />
+              <xs:element name="IdPlanta" type="xs:int" minOccurs="0" />
+              <xs:element name="ResistenciaKG" type="xs:float" />
+              <xs:element name="Tipo" type="xs:int" />
+              <xs:element name="Agregado" type="xs:float" />
+              <xs:element name="Revenimento" type="xs:float" />
+              <xs:element name="Grado" type="xs:string" />
+              <xs:element name="IdAgregado" type="xs:int" />
+              <xs:element name="Fechaini" type="xs:dateTime" />
+              <xs:element name="Fechafin" type="xs:dateTime" />
+              <xs:element name="Planta" type="xs:int" minOccurs="0" />
+              <xs:element name="Muestras" type="xs:short" minOccurs="0" />
+              <xs:element name="d3a7" type="xs:float" minOccurs="0" />
+              <xs:element name="d3aEE" type="xs:float" minOccurs="0" />
+              <xs:element name="d7aEE" type="xs:float" minOccurs="0" />
+              <xs:element name="s3a7" type="xs:float" minOccurs="0" />
+              <xs:element name="s3EE" type="xs:float" minOccurs="0" />
+              <xs:element name="s7EE" type="xs:float" minOccurs="0" />
+              <xs:element name="Prueba" type="xs:string" />
+              <xs:element name="Unidad" type="xs:string" minOccurs="0" />
+              <xs:element name="Diametro" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

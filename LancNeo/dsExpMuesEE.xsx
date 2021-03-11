@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Este archivo lo genera de forma automática el diseñador de esquemas XML. Contiene información de diseño para componentes de la superficie de diseño.-->
+<XSDDesignerLayout layoutVersion="2" viewPortLeft="0" viewPortTop="0" zoom="100">
+    <Muestras_XmlElement left="317" top="254" width="5292" height="2963" selected="0" zOrder="2" index="0" expanded="1" />
+    <Promedios_XmlElement left="8361" top="2910" width="5292" height="2963" selected="0" zOrder="3" index="1" expanded="1" />
+    <MuestrasPromedios_XmlKeyref left="6734" top="2812" width="503" height="503" selected="0" zOrder="5" />
+</XSDDesignerLayout>

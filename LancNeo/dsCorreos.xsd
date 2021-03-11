@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCorreos" targetNamespace="http://tempuri.org/dsCorreos.xsd" xmlns:mstns="http://tempuri.org/dsCorreos.xsd" xmlns="http://tempuri.org/dsCorreos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCorreos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsCorreos" msprop:Generator_DataSetName="dsCorreos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Obra" msprop:Generator_TableClassName="ObraDataTable" msprop:Generator_TableVarName="tableObra" msprop:Generator_TablePropName="Obra" msprop:Generator_RowDeletingName="ObraRowDeleting" msprop:Generator_RowChangingName="ObraRowChanging" msprop:Generator_RowEvHandlerName="ObraRowChangeEventHandler" msprop:Generator_RowDeletedName="ObraRowDeleted" msprop:Generator_UserTableName="Obra" msprop:Generator_RowChangedName="ObraRowChanged" msprop:Generator_RowEvArgName="ObraRowChangeEvent" msprop:Generator_RowClassName="ObraRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Idobra" msprop:Generator_ColumnVarNameInTable="columnIdobra" msprop:Generator_ColumnPropNameInRow="Idobra" msprop:Generator_ColumnPropNameInTable="IdobraColumn" msprop:Generator_UserColumnName="Idobra">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Correo1" msprop:Generator_ColumnVarNameInTable="columnCorreo1" msprop:Generator_ColumnPropNameInRow="Correo1" msprop:Generator_ColumnPropNameInTable="Correo1Column" msprop:Generator_UserColumnName="Correo1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Correo2" msprop:Generator_ColumnVarNameInTable="columnCorreo2" msprop:Generator_ColumnPropNameInRow="Correo2" msprop:Generator_ColumnPropNameInTable="Correo2Column" msprop:Generator_UserColumnName="Correo2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Correo3" msprop:Generator_ColumnVarNameInTable="columnCorreo3" msprop:Generator_ColumnPropNameInRow="Correo3" msprop:Generator_ColumnPropNameInTable="Correo3Column" msprop:Generator_UserColumnName="Correo3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Correo4" msprop:Generator_ColumnVarNameInTable="columnCorreo4" msprop:Generator_ColumnPropNameInRow="Correo4" msprop:Generator_ColumnPropNameInTable="Correo4Column" msprop:Generator_UserColumnName="Correo4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Correo5" msprop:Generator_ColumnVarNameInTable="columnCorreo5" msprop:Generator_ColumnPropNameInRow="Correo5" msprop:Generator_ColumnPropNameInTable="Correo5Column" msprop:Generator_UserColumnName="Correo5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Obra" />
+      <xs:field xpath="mstns:Idobra" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

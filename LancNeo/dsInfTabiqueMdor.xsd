@@ -1,0 +1,103 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="dsInfTabiqueMdor" targetNamespace="http://www.tempuri.org/dsInfTabiqueMdor.xsd"
+	xmlns:mstns="http://www.tempuri.org/dsInfTabiqueMdor.xsd" xmlns="http://www.tempuri.org/dsInfTabiqueMdor.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+	attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="dsInfTabiqueMdor" msdata:IsDataSet="true" msdata:Locale="es-MX">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="TabiqueRep">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Folio" type="xs:string" minOccurs="0" />
+							<xs:element name="IdObra" type="xs:string" minOccurs="0" />
+							<xs:element name="ConsObra" type="xs:short" minOccurs="0" />
+							<xs:element name="FMuestreo" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FEnsaye" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Finforme" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Lab" type="xs:short" minOccurs="0" />
+							<xs:element name="Anos" type="xs:int" minOccurs="0" />
+							<xs:element name="Semana" type="xs:short" minOccurs="0" />
+							<xs:element name="Hoja" type="xs:int" minOccurs="0" />
+							<xs:element name="MReducida" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Unidad" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Cumple" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Norma" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Como" type="xs:string" minOccurs="0" />
+							<xs:element name="ObsComo" type="xs:string" minOccurs="0" />
+							<xs:element name="Tipo" type="xs:string" minOccurs="0" />
+							<xs:element name="Subtipo" type="xs:string" minOccurs="0" />
+							<xs:element name="Grado" type="xs:string" minOccurs="0" />
+							<xs:element name="Empleado" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Observac" type="xs:string" minOccurs="0" />
+							<xs:element name="Razonsocial" type="xs:string" minOccurs="0" />
+							<xs:element name="Ubicacion" type="xs:string" minOccurs="0" />
+							<xs:element name="Colonia" type="xs:string" minOccurs="0" />
+							<xs:element name="Zona" type="xs:string" minOccurs="0" />
+							<xs:element name="Largo" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Ancho" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Peralte" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TabiqueRep1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Folio" type="xs:string" minOccurs="0" />
+							<xs:element name="Muestra" type="xs:short" minOccurs="0" />
+							<xs:element name="TMuestra" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Largo" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Ancho" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Peralte" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Masa" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Area" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RcAInd" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RcAPro" type="xs:decimal" minOccurs="0" />
+							<xs:element name="EspInd" type="xs:decimal" minOccurs="0" />
+							<xs:element name="EspPro" type="xs:decimal" minOccurs="0" />
+							<xs:element name="apl" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TabiqueRep11">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Folio" type="xs:string" minOccurs="0" />
+							<xs:element name="Muestra" type="xs:short" minOccurs="0" />
+							<xs:element name="TMuestra" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Largo" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Ancho" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Peralte" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Masa" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Area" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RcAInd" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RcAPro" type="xs:decimal" minOccurs="0" />
+							<xs:element name="EspInd" type="xs:decimal" minOccurs="0" />
+							<xs:element name="EspPro" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Normas">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdNorma" type="xs:short" />
+							<xs:element name="Informe" type="xs:string" minOccurs="0" />
+							<xs:element name="Normas" type="xs:string" minOccurs="0" />
+							<xs:element name="Titulo" type="xs:string" minOccurs="0" />
+							<xs:element name="IdInforme" type="xs:string" minOccurs="0" />
+							<xs:element name="Norma1" type="xs:string" minOccurs="0" />
+							<xs:element name="Norma2" type="xs:string" minOccurs="0" />
+							<xs:element name="Norma3" type="xs:string" minOccurs="0" />
+							<xs:element name="Norma4" type="xs:string" minOccurs="0" />
+							<xs:element name="Norma5" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="dsInfTabiqueMdorKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Normas" />
+			<xs:field xpath="mstns:IdNorma" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

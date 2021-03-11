@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="dsConcreto" targetNamespace="http://www.tempuri.org/dsConcreto.xsd" xmlns:mstns="http://www.tempuri.org/dsConcreto.xsd"
+	xmlns="http://www.tempuri.org/dsConcreto.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="dsConcreto" msdata:IsDataSet="true" msdata:Locale="es-MX">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Muestras">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdObra" type="xs:string" />
+							<xs:element name="Resistencia" type="xs:float" />
+							<xs:element name="Tipo" type="xs:string" minOccurs="0" />
+							<xs:element name="T.M.A." type="xs:float" />
+							<xs:element name="Rev." type="xs:float" minOccurs="0" />
+							<xs:element name="T._x0020_A." type="xs:string" />
+							<xs:element name="Gr" type="xs:string" minOccurs="0" />
+							<xs:element name="N_x00B0__x0020_muestras" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

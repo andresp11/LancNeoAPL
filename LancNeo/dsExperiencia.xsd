@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="dsExperiencia" targetNamespace="http://www.tempuri.org/dsExperiencia.xsd" xmlns:mstns="http://www.tempuri.org/dsExperiencia.xsd"
+	xmlns="http://www.tempuri.org/dsExperiencia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="dsExperiencia" msdata:IsDataSet="true" msdata:Locale="es-MX">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Experiencia">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Premez" type="xs:string" />
+							<xs:element name="Pta" type="xs:int" minOccurs="0" />
+							<xs:element name="f_x00B4_c_x0020_" type="xs:float" />
+							<xs:element name="Tipo_x0020__x0020_" type="xs:string" minOccurs="0" />
+							<xs:element name="Tma_x0020_" type="xs:float" />
+							<xs:element name="Rev_x0020_" type="xs:float" />
+							<xs:element name="Gr" type="xs:string" />
+							<xs:element name="_x0020__x0020_T_x0020_A_x0020__x0020_" type="xs:string" />
+							<xs:element name="Muestras" type="xs:short" minOccurs="0" />
+							<xs:element name="_x0033__x0020_a_x0020_7" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="_x0033__x0020_a_x0020_EE" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="_x0037__x0020_a_x0020_EE" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="F._x0020__x0020_Ini" type="xs:dateTime" />
+							<xs:element name="F._x0020__x0020_Fin" type="xs:dateTime" />
+							<xs:element name="d3_x0020_a_x0020_7" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="d3_x0020_a_x0020_EE" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="d7_x0020_a_x0020_EE" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="Unidad" type="xs:string" minOccurs="0" />
+							<xs:element name="Prueba" type="xs:string" />
+							<xs:element name="Identificador" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

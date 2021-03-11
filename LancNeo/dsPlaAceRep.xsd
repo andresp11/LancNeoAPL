@@ -1,0 +1,69 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="dsPlaAceRep" targetNamespace="http://www.tempuri.org/dsPlaAceRep.xsd" xmlns:mstns="http://www.tempuri.org/dsPlaAceRep.xsd"
+	xmlns="http://www.tempuri.org/dsPlaAceRep.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="dsPlaAceRep" msdata:IsDataSet="true" msdata:Locale="es-MX">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="PlacAceRep">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Folio" type="xs:string" minOccurs="0" />
+							<xs:element name="IdObra" type="xs:string" minOccurs="0" />
+							<xs:element name="ConsObra" type="xs:short" minOccurs="0" />
+							<xs:element name="FMuestreo" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FEnsaye" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Finforme" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Lab" type="xs:short" minOccurs="0" />
+							<xs:element name="Anos" type="xs:int" minOccurs="0" />
+							<xs:element name="Semana" type="xs:short" minOccurs="0" />
+							<xs:element name="Hoja" type="xs:int" minOccurs="0" />
+							<xs:element name="MuesEn" type="xs:string" minOccurs="0" />
+							<xs:element name="Observac" type="xs:string" minOccurs="0" />
+							<xs:element name="Especifica" type="xs:short" minOccurs="0" />
+							<xs:element name="Nominal" type="xs:string" minOccurs="0" />
+							<xs:element name="TAcero" type="xs:string" minOccurs="0" />
+							<xs:element name="EsfLE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="EsfMAX1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="EsfMAX2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Alarga20" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Alarga5" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Producto" type="xs:string" minOccurs="0" />
+							<xs:element name="Muestra" type="xs:short" minOccurs="0" />
+							<xs:element name="Espesor" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Ancho" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Area" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CargaLE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CargaMax" type="xs:decimal" minOccurs="0" />
+							<xs:element name="EsfLER" type="xs:decimal" minOccurs="0" />
+							<xs:element name="EsfMAXR" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Alarga20R" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Alarga5R" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Observa" type="xs:string" minOccurs="0" />
+							<xs:element name="Observa1" type="xs:string" minOccurs="0" />
+							<xs:element name="Nota" type="xs:int" minOccurs="0" />
+							<xs:element name="Nota1" type="xs:int" minOccurs="0" />
+							<xs:element name="Razonsocial" type="xs:string" minOccurs="0" />
+							<xs:element name="Ubicacion" type="xs:string" minOccurs="0" />
+							<xs:element name="Colonia" type="xs:string" minOccurs="0" />
+							<xs:element name="Zona" type="xs:string" minOccurs="0" />
+							<xs:element name="Colada" type="xs:string" minOccurs="0" />
+							<xs:element name="Remesa" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Normas">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdNorma" type="xs:short" />
+							<xs:element name="Informe" type="xs:string" minOccurs="0" />
+							<xs:element name="Normas" type="xs:string" minOccurs="0" />
+							<xs:element name="Titulo" type="xs:string" minOccurs="0" />
+							<xs:element name="IdInforme" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

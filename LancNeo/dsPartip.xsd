@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsPartip" targetNamespace="http://tempuri.org/dsPartip.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/dsPartip.xsd" xmlns:mstns="http://tempuri.org/dsPartip.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsPartip" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="ParTip">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="EspecimenA" type="xs:short" minOccurs="0" />
+							<xs:element name="DiaA" type="xs:int" minOccurs="0" />
+							<xs:element name="EdadA" type="xs:string" minOccurs="0" />
+							<xs:element name="OrdenGraA" type="xs:short" minOccurs="0" />
+							<xs:element name="EspecimenB" type="xs:short" minOccurs="0" />
+							<xs:element name="DiaB" type="xs:int" minOccurs="0" />
+							<xs:element name="EdadB" type="xs:string" minOccurs="0" />
+							<xs:element name="OrdenGraB" type="xs:short" minOccurs="0" />
+							<xs:element name="EspecimenC" type="xs:short" minOccurs="0" />
+							<xs:element name="DiaC" type="xs:int" minOccurs="0" />
+							<xs:element name="EdadC" type="xs:string" minOccurs="0" />
+							<xs:element name="OrdenGraC" type="xs:short" minOccurs="0" />
+							<xs:element name="EspecimenD" type="xs:short" minOccurs="0" />
+							<xs:element name="DiaD" type="xs:int" minOccurs="0" />
+							<xs:element name="EdadD" type="xs:string" minOccurs="0" />
+							<xs:element name="OrdenGraD" type="xs:short" minOccurs="0" />
+							<xs:element name="EspecimenE" type="xs:short" minOccurs="0" />
+							<xs:element name="DiaE" type="xs:int" minOccurs="0" />
+							<xs:element name="EdadE" type="xs:string" minOccurs="0" />
+							<xs:element name="OrdenGraE" type="xs:short" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

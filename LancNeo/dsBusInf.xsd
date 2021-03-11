@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsBusInf" targetNamespace="http://tempuri.org/dsBusInf.xsd" xmlns:mstns="http://tempuri.org/dsBusInf.xsd" xmlns="http://tempuri.org/dsBusInf.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="lancConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="lancConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.LancNeo.Properties.Settings.GlobalReference.Default.lancConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsBusInf" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsBusInf" msprop:Generator_UserDSName="dsBusInf">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="InfMdor" msprop:Generator_TableClassName="InfMdorDataTable" msprop:Generator_TableVarName="tableInfMdor" msprop:Generator_TablePropName="InfMdor" msprop:Generator_RowDeletingName="InfMdorRowDeleting" msprop:Generator_RowChangingName="InfMdorRowChanging" msprop:Generator_RowEvHandlerName="InfMdorRowChangeEventHandler" msprop:Generator_RowDeletedName="InfMdorRowDeleted" msprop:Generator_UserTableName="InfMdor" msprop:Generator_RowChangedName="InfMdorRowChanged" msprop:Generator_RowEvArgName="InfMdorRowChangeEvent" msprop:Generator_RowClassName="InfMdorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Folio" msprop:Generator_ColumnVarNameInTable="columnFolio" msprop:Generator_ColumnPropNameInRow="Folio" msprop:Generator_ColumnPropNameInTable="FolioColumn" msprop:Generator_UserColumnName="Folio">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdObra" msprop:Generator_ColumnVarNameInTable="columnIdObra" msprop:Generator_ColumnPropNameInRow="IdObra" msprop:Generator_ColumnPropNameInTable="IdObraColumn" msprop:Generator_UserColumnName="IdObra">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ConsObra" msprop:Generator_ColumnVarNameInTable="columnConsObra" msprop:Generator_ColumnPropNameInRow="ConsObra" msprop:Generator_ColumnPropNameInTable="ConsObraColumn" msprop:Generator_UserColumnName="ConsObra" type="xs:short" />
+              <xs:element name="Fmuestreo" msprop:Generator_ColumnVarNameInTable="columnFmuestreo" msprop:Generator_ColumnPropNameInRow="Fmuestreo" msprop:Generator_ColumnPropNameInTable="FmuestreoColumn" msprop:Generator_UserColumnName="Fmuestreo" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:InfMdor" />
+      <xs:field xpath="mstns:Folio" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

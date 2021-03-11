@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLabAdic" targetNamespace="http://tempuri.org/dsLabAdic.xsd" xmlns:mstns="http://tempuri.org/dsLabAdic.xsd" xmlns="http://tempuri.org/dsLabAdic.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLabAdic" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLabAdic" msprop:Generator_DataSetName="dsLabAdic">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LabAdic" msprop:Generator_TableClassName="LabAdicDataTable" msprop:Generator_TableVarName="tableLabAdic" msprop:Generator_TablePropName="LabAdic" msprop:Generator_RowDeletingName="LabAdicRowDeleting" msprop:Generator_RowChangingName="LabAdicRowChanging" msprop:Generator_RowEvHandlerName="LabAdicRowChangeEventHandler" msprop:Generator_RowDeletedName="LabAdicRowDeleted" msprop:Generator_UserTableName="LabAdic" msprop:Generator_RowChangedName="LabAdicRowChanged" msprop:Generator_RowEvArgName="LabAdicRowChangeEvent" msprop:Generator_RowClassName="LabAdicRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdObra" msprop:Generator_ColumnVarNameInTable="columnIdObra" msprop:Generator_ColumnPropNameInRow="IdObra" msprop:Generator_ColumnPropNameInTable="IdObraColumn" msprop:Generator_UserColumnName="IdObra">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoEco" msprop:Generator_ColumnVarNameInTable="columnNoEco" msprop:Generator_ColumnPropNameInRow="NoEco" msprop:Generator_ColumnPropNameInTable="NoEcoColumn" msprop:Generator_UserColumnName="NoEco" type="xs:short" />
+              <xs:element name="FInicial" msprop:Generator_ColumnVarNameInTable="columnFInicial" msprop:Generator_ColumnPropNameInRow="FInicial" msprop:Generator_ColumnPropNameInTable="FInicialColumn" msprop:Generator_UserColumnName="FInicial" type="xs:dateTime" />
+              <xs:element name="FFinal" msprop:Generator_ColumnVarNameInTable="columnFFinal" msprop:Generator_ColumnPropNameInRow="FFinal" msprop:Generator_ColumnPropNameInTable="FFinalColumn" msprop:Generator_UserColumnName="FFinal" type="xs:dateTime" />
+              <xs:element name="Semana" msprop:Generator_ColumnVarNameInTable="columnSemana" msprop:Generator_ColumnPropNameInRow="Semana" msprop:Generator_ColumnPropNameInTable="SemanaColumn" msprop:Generator_UserColumnName="Semana" type="xs:int" minOccurs="0" />
+              <xs:element name="Observación" msprop:Generator_ColumnVarNameInTable="columnObservación" msprop:Generator_ColumnPropNameInRow="Observación" msprop:Generator_ColumnPropNameInTable="ObservaciónColumn" msprop:Generator_UserColumnName="Observación" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LabAdic" />
+      <xs:field xpath="mstns:IdObra" />
+      <xs:field xpath="mstns:NoEco" />
+      <xs:field xpath="mstns:FInicial" />
+      <xs:field xpath="mstns:FFinal" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsOrigenCo" targetNamespace="http://tempuri.org/dsOrigenCo.xsd" xmlns:mstns="http://tempuri.org/dsOrigenCo.xsd" xmlns="http://tempuri.org/dsOrigenCo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsOrigenCo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsOrigenCo" msprop:Generator_UserDSName="dsOrigenCo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="OrigenCo" msprop:Generator_TableClassName="OrigenCoDataTable" msprop:Generator_TableVarName="tableOrigenCo" msprop:Generator_TablePropName="OrigenCo" msprop:Generator_RowDeletingName="OrigenCoRowDeleting" msprop:Generator_UserTableName="OrigenCo" msprop:Generator_RowChangingName="OrigenCoRowChanging" msprop:Generator_RowEvHandlerName="OrigenCoRowChangeEventHandler" msprop:Generator_RowDeletedName="OrigenCoRowDeleted" msprop:Generator_RowEvArgName="OrigenCoRowChangeEvent" msprop:Generator_RowChangedName="OrigenCoRowChanged" msprop:Generator_RowClassName="OrigenCoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdOrigen" msprop:Generator_ColumnVarNameInTable="columnIdOrigen" msprop:Generator_ColumnPropNameInRow="IdOrigen" msprop:Generator_ColumnPropNameInTable="IdOrigenColumn" msprop:Generator_UserColumnName="IdOrigen" type="xs:int" minOccurs="0" />
+              <xs:element name="Origen" msprop:Generator_ColumnVarNameInTable="columnOrigen" msprop:Generator_ColumnPropNameInRow="Origen" msprop:Generator_ColumnPropNameInTable="OrigenColumn" msprop:Generator_UserColumnName="Origen" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

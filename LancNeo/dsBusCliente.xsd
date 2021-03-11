@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsBusCliente" targetNamespace="http://www.tempuri.org/dsBusCliente.xsd" xmlns:mstns="http://www.tempuri.org/dsBusCliente.xsd" xmlns="http://www.tempuri.org/dsBusCliente.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsBusCliente" msdata:IsDataSet="true" msdata:Locale="es-MX">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="cliente">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCliente" type="xs:string" />
+              <xs:element name="Cliente" type="xs:string" />
+              <xs:element name="Direccion" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:cliente" />
+      <xs:field xpath="mstns:IdCliente" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

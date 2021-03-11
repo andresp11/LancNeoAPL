@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Este archivo lo genera de forma automática el diseñador de esquemas XML. Contiene información de diseño para componentes de la superficie de diseño.-->
+<XSDDesignerLayout layoutVersion="2" viewPortLeft="0" viewPortTop="-1500" zoom="100">
+    <TabiqueRep_XmlElement left="317" top="265" width="5292" height="13546" selected="0" zOrder="1" index="0" expanded="1" />
+    <TabiqueRep1_XmlElement left="7329" top="370" width="5291" height="6774" selected="0" zOrder="2" index="1" expanded="1" />
+    <TabiqueRep11_XmlElement left="13335" top="291" width="5291" height="6773" selected="0" zOrder="4" index="2" expanded="1" />
+    <Normas_XmlElement left="21458" top="2011" width="5292" height="5927" selected="0" zOrder="6" index="3" expanded="1" />
+</XSDDesignerLayout>

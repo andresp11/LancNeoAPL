@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsZetaSolicitud" targetNamespace="http://tempuri.org/dsZetaSolicitud.xsd" xmlns:mstns="http://tempuri.org/dsZetaSolicitud.xsd" xmlns="http://tempuri.org/dsZetaSolicitud.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsZetaSolicitud" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsZetaSolicitud" msprop:Generator_DataSetName="dsZetaSolicitud">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Solicitud" msprop:Generator_TableClassName="SolicitudDataTable" msprop:Generator_TableVarName="tableSolicitud" msprop:Generator_TablePropName="Solicitud" msprop:Generator_RowDeletingName="SolicitudRowDeleting" msprop:Generator_RowChangingName="SolicitudRowChanging" msprop:Generator_RowEvHandlerName="SolicitudRowChangeEventHandler" msprop:Generator_RowDeletedName="SolicitudRowDeleted" msprop:Generator_UserTableName="Solicitud" msprop:Generator_RowChangedName="SolicitudRowChanged" msprop:Generator_RowEvArgName="SolicitudRowChangeEvent" msprop:Generator_RowClassName="SolicitudRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdSolicitud" msprop:Generator_ColumnVarNameInTable="columnIdSolicitud" msprop:Generator_ColumnPropNameInRow="IdSolicitud" msprop:Generator_ColumnPropNameInTable="IdSolicitudColumn" msprop:Generator_UserColumnName="IdSolicitud" type="xs:short" />
+              <xs:element name="Año" msprop:Generator_ColumnVarNameInTable="columnAño" msprop:Generator_ColumnPropNameInRow="Año" msprop:Generator_ColumnPropNameInTable="AñoColumn" msprop:Generator_UserColumnName="Año" type="xs:short" />
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:double" minOccurs="0" />
+              <xs:element name="Unidad" msprop:Generator_ColumnVarNameInTable="columnUnidad" msprop:Generator_ColumnPropNameInRow="Unidad" msprop:Generator_ColumnPropNameInTable="UnidadColumn" msprop:Generator_UserColumnName="Unidad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Presupuesto" msprop:Generator_ColumnVarNameInTable="columnPresupuesto" msprop:Generator_ColumnPropNameInRow="Presupuesto" msprop:Generator_ColumnPropNameInTable="PresupuestoColumn" msprop:Generator_UserColumnName="Presupuesto" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FecAprobado" msprop:Generator_ColumnVarNameInTable="columnFecAprobado" msprop:Generator_ColumnPropNameInRow="FecAprobado" msprop:Generator_ColumnPropNameInTable="FecAprobadoColumn" msprop:Generator_UserColumnName="FecAprobado" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FecAdm" msprop:Generator_ColumnVarNameInTable="columnFecAdm" msprop:Generator_ColumnPropNameInRow="FecAdm" msprop:Generator_ColumnPropNameInTable="FecAdmColumn" msprop:Generator_UserColumnName="FecAdm" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Solicitud" />
+      <xs:field xpath="mstns:IdSolicitud" />
+      <xs:field xpath="mstns:Año" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

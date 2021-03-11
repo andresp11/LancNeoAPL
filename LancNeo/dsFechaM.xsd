@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsFechaM" targetNamespace="http://tempuri.org/dsFechaM.xsd" xmlns:mstns="http://tempuri.org/dsFechaM.xsd" xmlns="http://tempuri.org/dsFechaM.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsFechaM" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsFechaM" msprop:Generator_DataSetName="dsFechaM">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Muestras" msprop:Generator_TableClassName="MuestrasDataTable" msprop:Generator_TableVarName="tableMuestras" msprop:Generator_TablePropName="Muestras" msprop:Generator_RowDeletingName="MuestrasRowDeleting" msprop:Generator_RowChangingName="MuestrasRowChanging" msprop:Generator_RowEvHandlerName="MuestrasRowChangeEventHandler" msprop:Generator_RowDeletedName="MuestrasRowDeleted" msprop:Generator_UserTableName="Muestras" msprop:Generator_RowChangedName="MuestrasRowChanged" msprop:Generator_RowEvArgName="MuestrasRowChangeEvent" msprop:Generator_RowClassName="MuestrasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="dsResumen" targetNamespace="http://www.tempuri.org/dsResumen.xsd" xmlns:mstns="http://www.tempuri.org/dsResumen.xsd"
+	xmlns="http://www.tempuri.org/dsResumen.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="dsResumen" msdata:IsDataSet="true" msdata:Locale="es-MX">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="ResumenTrabajos">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdObra" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="IdConcepto" type="xs:short" minOccurs="0" />
+							<xs:element name="Pres" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Parc1" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Parc2" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Parc3" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="total" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PreUni" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PreLis" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Concepto">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdConcepto" type="xs:short" />
+							<xs:element name="Concepto" type="xs:string" minOccurs="0" />
+							<xs:element name="Tot1" type="xs:decimal" />
+							<xs:element name="Tot2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Tot3" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Tot4" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Tot5" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Tot6" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Tot7" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Tot8" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="dsResumenKey1">
+			<xs:selector xpath=".//mstns:Concepto" />
+			<xs:field xpath="mstns:IdConcepto" />
+		</xs:key>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAnaCompac" targetNamespace="http://tempuri.org/dsAnaCompac.xsd" xmlns:mstns="http://tempuri.org/dsAnaCompac.xsd" xmlns="http://tempuri.org/dsAnaCompac.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAnaCompac" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAnaCompac" msprop:Generator_DataSetName="dsAnaCompac">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CompactaMdor" msprop:Generator_TableClassName="CompactaMdorDataTable" msprop:Generator_TableVarName="tableCompactaMdor" msprop:Generator_TablePropName="CompactaMdor" msprop:Generator_RowDeletingName="CompactaMdorRowDeleting" msprop:Generator_RowChangingName="CompactaMdorRowChanging" msprop:Generator_RowEvHandlerName="CompactaMdorRowChangeEventHandler" msprop:Generator_RowDeletedName="CompactaMdorRowDeleted" msprop:Generator_UserTableName="CompactaMdor" msprop:Generator_RowChangedName="CompactaMdorRowChanged" msprop:Generator_RowEvArgName="CompactaMdorRowChangeEvent" msprop:Generator_RowClassName="CompactaMdorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdObra" msprop:Generator_ColumnVarNameInTable="columnIdObra" msprop:Generator_ColumnPropNameInRow="IdObra" msprop:Generator_ColumnPropNameInTable="IdObraColumn" msprop:Generator_UserColumnName="IdObra">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CAPA" msprop:Generator_ColumnVarNameInTable="columnCAPA" msprop:Generator_ColumnPropNameInRow="CAPA" msprop:Generator_ColumnPropNameInTable="CAPAColumn" msprop:Generator_UserColumnName="CAPA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

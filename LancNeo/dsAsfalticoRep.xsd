@@ -1,0 +1,87 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsAsfalticoRep" targetNamespace="http://www.tempuri.org/dsAsfalticoRep.xsd" xmlns:mstns="http://www.tempuri.org/dsAsfalticoRep.xsd" xmlns="http://www.tempuri.org/dsAsfalticoRep.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsAsfalticoRep" msdata:IsDataSet="true" msdata:Locale="es-MX">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="AsfalticoRep">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Folio" type="xs:string" minOccurs="0" />
+              <xs:element name="IdObra" type="xs:string" minOccurs="0" />
+              <xs:element name="ConsObra" type="xs:short" minOccurs="0" />
+              <xs:element name="FMuestreo" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FEnsaye" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Finforme" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Frecibo" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Lab" type="xs:short" minOccurs="0" />
+              <xs:element name="Semana" type="xs:short" minOccurs="0" />
+              <xs:element name="Anos" type="xs:int" minOccurs="0" />
+              <xs:element name="Hoja" type="xs:int" minOccurs="0" />
+              <xs:element name="Observac" type="xs:string" minOccurs="0" />
+              <xs:element name="Material" type="xs:string" minOccurs="0" />
+              <xs:element name="Usarse" type="xs:string" minOccurs="0" />
+              <xs:element name="Tratamietno" type="xs:string" minOccurs="0" />
+              <xs:element name="Deposito" type="xs:string" minOccurs="0" />
+              <xs:element name="Ubicacion" type="xs:string" minOccurs="0" />
+              <xs:element name="Viaje" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TendidoI" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TendidoF" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Carril" type="xs:string" minOccurs="0" />
+              <xs:element name="Franja" type="xs:string" minOccurs="0" />
+              <xs:element name="TSalida" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TTendido" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TCompacta" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MSeca" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MLP" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Absor" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Desgaste" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Tritura" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Alarga" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Part" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Arena" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Lineal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Asfalto" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Marca" type="xs:string" minOccurs="0" />
+              <xs:element name="Tipo" type="xs:string" minOccurs="0" />
+              <xs:element name="Cantidad" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Afinidad" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PMSeca" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PMLP" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PAbsor" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PDesgaste" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PTritura" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PAlarga" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PPart" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PArena" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PLineal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PAsfalto" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PMarca" type="xs:string" minOccurs="0" />
+              <xs:element name="PTipo" type="xs:string" minOccurs="0" />
+              <xs:element name="PCantidad" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PAfinidad" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Mesp" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Estabilidad" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Flujo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Vacios" type="xs:decimal" minOccurs="0" />
+              <xs:element name="VAM" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EMesp" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EEstabilidad" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EFlujo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EVacios" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EVAM" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TipoC" type="xs:string" minOccurs="0" />
+              <xs:element name="Penetra" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Viscosdad" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Recomendad" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Aplicada" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Razonsocial" type="xs:string" minOccurs="0" />
+              <xs:element name="Ubicacion1" type="xs:string" minOccurs="0" />
+              <xs:element name="Colonia" type="xs:string" minOccurs="0" />
+              <xs:element name="Zona" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

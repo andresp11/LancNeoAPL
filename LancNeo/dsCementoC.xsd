@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCementoC" targetNamespace="http://tempuri.org/dsCementoC.xsd" xmlns:mstns="http://tempuri.org/dsCementoC.xsd" xmlns="http://tempuri.org/dsCementoC.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCementoC" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsCementoC" msprop:Generator_UserDSName="dsCementoC">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Muestreador" msprop:Generator_TableClassName="MuestreadorDataTable" msprop:Generator_TableVarName="tableMuestreador" msprop:Generator_RowChangedName="MuestreadorRowChanged" msprop:Generator_TablePropName="Muestreador" msprop:Generator_RowDeletingName="MuestreadorRowDeleting" msprop:Generator_RowChangingName="MuestreadorRowChanging" msprop:Generator_RowEvHandlerName="MuestreadorRowChangeEventHandler" msprop:Generator_RowDeletedName="MuestreadorRowDeleted" msprop:Generator_RowClassName="MuestreadorRow" msprop:Generator_UserTableName="Muestreador" msprop:Generator_RowEvArgName="MuestreadorRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:dateTime" />
+              <xs:element name="Cemento" msprop:Generator_ColumnVarNameInTable="columnCemento" msprop:Generator_ColumnPropNameInRow="Cemento" msprop:Generator_ColumnPropNameInTable="CementoColumn" msprop:Generator_UserColumnName="Cemento" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Muestreador" />
+      <xs:field xpath="mstns:Fecha" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

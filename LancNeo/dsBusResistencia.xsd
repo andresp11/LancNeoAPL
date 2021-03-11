@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsBusResistencia" targetNamespace="http://www.tempuri.org/dsBusResistencia.xsd" xmlns:mstns="http://www.tempuri.org/dsBusResistencia.xsd" xmlns="http://www.tempuri.org/dsBusResistencia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsBusResistencia" msdata:IsDataSet="true" msdata:Locale="es-MX">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Resistencia">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ResistenciaKG" type="xs:float" />
+              <xs:element name="Resistencia" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Resistencia" />
+      <xs:field xpath="mstns:ResistenciaKG" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

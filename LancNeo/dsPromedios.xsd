@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsPromedios" targetNamespace="http://tempuri.org/dsPromedios.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/dsPromedios.xsd" xmlns:mstns="http://tempuri.org/dsPromedios.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsPromedios" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Promedios">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdObra" type="xs:string" minOccurs="0" />
+							<xs:element name="Fecha" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Anos" type="xs:int" minOccurs="0" />
+							<xs:element name="Semana" type="xs:int" minOccurs="0" />
+							<xs:element name="Muestra" type="xs:int" minOccurs="0" />
+							<xs:element name="_x0033__x0020_días" type="xs:double" minOccurs="0" />
+							<xs:element name="_x0037__x0020_días" type="xs:double" minOccurs="0" />
+							<xs:element name="Uno" type="xs:double" minOccurs="0" />
+							<xs:element name="to11" type="xs:int" minOccurs="0" />
+							<xs:element name="to12" type="xs:int" minOccurs="0" />
+							<xs:element name="Dos" type="xs:double" minOccurs="0" />
+							<xs:element name="to21" type="xs:int" minOccurs="0" />
+							<xs:element name="to22" type="xs:int" minOccurs="0" />
+							<xs:element name="Tres" type="xs:double" minOccurs="0" />
+							<xs:element name="to31" type="xs:int" minOccurs="0" />
+							<xs:element name="to32" type="xs:int" minOccurs="0" />
+							<xs:element name="Diario" type="xs:double" minOccurs="0" />
+							<xs:element name="unico" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

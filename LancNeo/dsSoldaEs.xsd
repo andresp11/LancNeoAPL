@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSoldaEs" targetNamespace="http://tempuri.org/dsSoldaEs.xsd" xmlns:mstns="http://tempuri.org/dsSoldaEs.xsd" xmlns="http://tempuri.org/dsSoldaEs.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSoldaEs" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_DataSetName="dsSoldaEs" msprop:Generator_UserDSName="dsSoldaEs">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SoldaEsp" msprop:Generator_TableClassName="SoldaEspDataTable" msprop:Generator_TableVarName="tableSoldaEsp" msprop:Generator_TablePropName="SoldaEsp" msprop:Generator_RowDeletingName="SoldaEspRowDeleting" msprop:Generator_RowChangingName="SoldaEspRowChanging" msprop:Generator_RowEvHandlerName="SoldaEspRowChangeEventHandler" msprop:Generator_RowDeletedName="SoldaEspRowDeleted" msprop:Generator_UserTableName="SoldaEsp" msprop:Generator_RowChangedName="SoldaEspRowChanged" msprop:Generator_RowEvArgName="SoldaEspRowChangeEvent" msprop:Generator_RowClassName="SoldaEspRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FOLIO" msprop:Generator_ColumnVarNameInTable="columnFOLIO" msprop:Generator_ColumnPropNameInRow="FOLIO" msprop:Generator_ColumnPropNameInTable="FOLIOColumn" msprop:Generator_UserColumnName="FOLIO" type="xs:string" />
+              <xs:element name="Especifica" msprop:Generator_ColumnVarNameInTable="columnEspecifica" msprop:Generator_ColumnPropNameInRow="Especifica" msprop:Generator_ColumnPropNameInTable="EspecificaColumn" msprop:Generator_UserColumnName="Especifica" type="xs:short" />
+              <xs:element name="Numero" msprop:Generator_ColumnVarNameInTable="columnNumero" msprop:Generator_ColumnPropNameInRow="Numero" msprop:Generator_ColumnPropNameInTable="NumeroColumn" msprop:Generator_UserColumnName="Numero" type="xs:string" minOccurs="0" />
+              <xs:element name="Grado" msprop:Generator_ColumnVarNameInTable="columnGrado" msprop:Generator_ColumnPropNameInRow="Grado" msprop:Generator_ColumnPropNameInTable="GradoColumn" msprop:Generator_UserColumnName="Grado" type="xs:string" minOccurs="0" />
+              <xs:element name="EsfuerzoLE" msprop:Generator_ColumnVarNameInTable="columnEsfuerzoLE" msprop:Generator_ColumnPropNameInRow="EsfuerzoLE" msprop:Generator_ColumnPropNameInTable="EsfuerzoLEColumn" msprop:Generator_UserColumnName="EsfuerzoLE" type="xs:int" minOccurs="0" />
+              <xs:element name="EsfuerzoMAX" msprop:Generator_ColumnVarNameInTable="columnEsfuerzoMAX" msprop:Generator_ColumnPropNameInRow="EsfuerzoMAX" msprop:Generator_ColumnPropNameInTable="EsfuerzoMAXColumn" msprop:Generator_UserColumnName="EsfuerzoMAX" type="xs:int" minOccurs="0" />
+              <xs:element name="Alargamiento" msprop:Generator_ColumnVarNameInTable="columnAlargamiento" msprop:Generator_ColumnPropNameInRow="Alargamiento" msprop:Generator_ColumnPropNameInTable="AlargamientoColumn" msprop:Generator_UserColumnName="Alargamiento" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EsfuerzoLEA" msprop:Generator_ColumnVarNameInTable="columnEsfuerzoLEA" msprop:Generator_ColumnPropNameInRow="EsfuerzoLEA" msprop:Generator_ColumnPropNameInTable="EsfuerzoLEAColumn" msprop:Generator_UserColumnName="EsfuerzoLEA" type="xs:int" minOccurs="0" />
+              <xs:element name="EsfuerzoMAXA" msprop:Generator_ColumnVarNameInTable="columnEsfuerzoMAXA" msprop:Generator_ColumnPropNameInRow="EsfuerzoMAXA" msprop:Generator_ColumnPropNameInTable="EsfuerzoMAXAColumn" msprop:Generator_UserColumnName="EsfuerzoMAXA" type="xs:int" minOccurs="0" />
+              <xs:element name="AlargamientoA" msprop:Generator_ColumnVarNameInTable="columnAlargamientoA" msprop:Generator_ColumnPropNameInRow="AlargamientoA" msprop:Generator_ColumnPropNameInTable="AlargamientoAColumn" msprop:Generator_UserColumnName="AlargamientoA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Nominal" msprop:Generator_ColumnVarNameInTable="columnNominal" msprop:Generator_ColumnPropNameInRow="Nominal" msprop:Generator_ColumnPropNameInTable="NominalColumn" msprop:Generator_UserColumnName="Nominal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IdUsuario" msprop:Generator_ColumnVarNameInTable="columnIdUsuario" msprop:Generator_ColumnPropNameInRow="IdUsuario" msprop:Generator_ColumnPropNameInTable="IdUsuarioColumn" msprop:Generator_UserColumnName="IdUsuario" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SoldaRes" msprop:Generator_TableClassName="SoldaResDataTable" msprop:Generator_TableVarName="tableSoldaRes" msprop:Generator_TablePropName="SoldaRes" msprop:Generator_RowDeletingName="SoldaResRowDeleting" msprop:Generator_RowChangingName="SoldaResRowChanging" msprop:Generator_RowEvHandlerName="SoldaResRowChangeEventHandler" msprop:Generator_RowDeletedName="SoldaResRowDeleted" msprop:Generator_UserTableName="SoldaRes" msprop:Generator_RowChangedName="SoldaResRowChanged" msprop:Generator_RowEvArgName="SoldaResRowChangeEvent" msprop:Generator_RowClassName="SoldaResRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FOLIO" msprop:Generator_ColumnVarNameInTable="columnFOLIO" msprop:Generator_ColumnPropNameInRow="FOLIO" msprop:Generator_ColumnPropNameInTable="FOLIOColumn" msprop:Generator_UserColumnName="FOLIO" type="xs:string" />
+              <xs:element name="Especifica" msprop:Generator_ColumnVarNameInTable="columnEspecifica" msprop:Generator_ColumnPropNameInRow="Especifica" msprop:Generator_ColumnPropNameInTable="EspecificaColumn" msprop:Generator_UserColumnName="Especifica" type="xs:short" />
+              <xs:element name="Muestra" msprop:Generator_ColumnVarNameInTable="columnMuestra" msprop:Generator_ColumnPropNameInRow="Muestra" msprop:Generator_ColumnPropNameInTable="MuestraColumn" msprop:Generator_UserColumnName="Muestra" type="xs:short" />
+              <xs:element name="Area" msprop:Generator_ColumnVarNameInTable="columnArea" msprop:Generator_ColumnPropNameInRow="Area" msprop:Generator_ColumnPropNameInTable="AreaColumn" msprop:Generator_UserColumnName="Area" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CargaLE" msprop:Generator_ColumnVarNameInTable="columnCargaLE" msprop:Generator_ColumnPropNameInRow="CargaLE" msprop:Generator_ColumnPropNameInTable="CargaLEColumn" msprop:Generator_UserColumnName="CargaLE" type="xs:int" minOccurs="0" />
+              <xs:element name="CargaMax" msprop:Generator_ColumnVarNameInTable="columnCargaMax" msprop:Generator_ColumnPropNameInRow="CargaMax" msprop:Generator_ColumnPropNameInTable="CargaMaxColumn" msprop:Generator_UserColumnName="CargaMax" type="xs:int" minOccurs="0" />
+              <xs:element name="EsfuerzoLE" msprop:Generator_ColumnVarNameInTable="columnEsfuerzoLE" msprop:Generator_ColumnPropNameInRow="EsfuerzoLE" msprop:Generator_ColumnPropNameInTable="EsfuerzoLEColumn" msprop:Generator_UserColumnName="EsfuerzoLE" type="xs:int" minOccurs="0" />
+              <xs:element name="EsfuerzoMAX" msprop:Generator_ColumnVarNameInTable="columnEsfuerzoMAX" msprop:Generator_ColumnPropNameInRow="EsfuerzoMAX" msprop:Generator_ColumnPropNameInTable="EsfuerzoMAXColumn" msprop:Generator_UserColumnName="EsfuerzoMAX" type="xs:int" minOccurs="0" />
+              <xs:element name="Alargamiento" msprop:Generator_ColumnVarNameInTable="columnAlargamiento" msprop:Generator_ColumnPropNameInRow="Alargamiento" msprop:Generator_ColumnPropNameInTable="AlargamientoColumn" msprop:Generator_UserColumnName="Alargamiento" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TJunta" msprop:Generator_ColumnVarNameInTable="columnTJunta" msprop:Generator_ColumnPropNameInRow="TJunta" msprop:Generator_ColumnPropNameInTable="TJuntaColumn" msprop:Generator_UserColumnName="TJunta" type="xs:string" minOccurs="0" />
+              <xs:element name="RJunta" msprop:Generator_ColumnVarNameInTable="columnRJunta" msprop:Generator_ColumnPropNameInRow="RJunta" msprop:Generator_ColumnPropNameInTable="RJuntaColumn" msprop:Generator_UserColumnName="RJunta" type="xs:string" minOccurs="0" />
+              <xs:element name="Observaciones" msprop:Generator_ColumnVarNameInTable="columnObservaciones" msprop:Generator_ColumnPropNameInRow="Observaciones" msprop:Generator_ColumnPropNameInTable="ObservacionesColumn" msprop:Generator_UserColumnName="Observaciones" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="dsSoldaEsKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SoldaEsp" />
+      <xs:field xpath="mstns:FOLIO" />
+      <xs:field xpath="mstns:Especifica" />
+    </xs:unique>
+    <xs:unique name="dsSoldaEsKey2" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SoldaRes" />
+      <xs:field xpath="mstns:FOLIO" />
+      <xs:field xpath="mstns:Especifica" />
+      <xs:field xpath="mstns:Muestra" />
+    </xs:unique>
+    <xs:keyref name="Solda" refer="dsSoldaEsKey1" msprop:rel_Generator_UserChildTable="SoldaRes" msprop:rel_Generator_ChildPropName="GetSoldaResRows" msprop:rel_Generator_UserRelationName="Solda" msprop:rel_Generator_ParentPropName="SoldaEspRowParent" msprop:rel_Generator_RelationVarName="relationSolda" msprop:rel_Generator_UserParentTable="SoldaEsp">
+      <xs:selector xpath=".//mstns:SoldaRes" />
+      <xs:field xpath="mstns:FOLIO" />
+      <xs:field xpath="mstns:Especifica" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

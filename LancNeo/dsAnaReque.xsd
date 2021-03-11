@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAnaReque" targetNamespace="http://tempuri.org/dsAnaReque.xsd" xmlns:mstns="http://tempuri.org/dsAnaReque.xsd" xmlns="http://tempuri.org/dsAnaReque.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAnaReque" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAnaReque" msprop:Generator_DataSetName="dsAnaReque">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CompactaMdor" msprop:Generator_TableClassName="CompactaMdorDataTable" msprop:Generator_TableVarName="tableCompactaMdor" msprop:Generator_TablePropName="CompactaMdor" msprop:Generator_RowDeletingName="CompactaMdorRowDeleting" msprop:Generator_RowChangingName="CompactaMdorRowChanging" msprop:Generator_RowEvHandlerName="CompactaMdorRowChangeEventHandler" msprop:Generator_RowDeletedName="CompactaMdorRowDeleted" msprop:Generator_UserTableName="CompactaMdor" msprop:Generator_RowChangedName="CompactaMdorRowChanged" msprop:Generator_RowEvArgName="CompactaMdorRowChangeEvent" msprop:Generator_RowClassName="CompactaMdorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Requerido" msprop:Generator_ColumnVarNameInTable="columnRequerido" msprop:Generator_ColumnPropNameInRow="Requerido" msprop:Generator_ColumnPropNameInTable="RequeridoColumn" msprop:Generator_UserColumnName="Requerido" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

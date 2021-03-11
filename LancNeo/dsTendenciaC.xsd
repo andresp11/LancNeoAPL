@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsTendenciaC" targetNamespace="http://tempuri.org/dsTendenciaC.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/dsTendenciaC.xsd" xmlns:mstns="http://tempuri.org/dsTendenciaC.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsTendenciaC" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="RepTendencia">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdConcretera" type="xs:string" minOccurs="0" />
+							<xs:element name="IdPlanta" type="xs:short" minOccurs="0" />
+							<xs:element name="Resistencia" type="xs:double" minOccurs="0" />
+							<xs:element name="dia1" type="xs:int" minOccurs="0" />
+							<xs:element name="n1" type="xs:int" minOccurs="0" />
+							<xs:element name="x1" type="xs:double" minOccurs="0" />
+							<xs:element name="d1" type="xs:double" minOccurs="0" />
+							<xs:element name="dia2" type="xs:int" minOccurs="0" />
+							<xs:element name="n2" type="xs:int" minOccurs="0" />
+							<xs:element name="x2" type="xs:double" minOccurs="0" />
+							<xs:element name="d2" type="xs:double" minOccurs="0" />
+							<xs:element name="dia3" type="xs:int" minOccurs="0" />
+							<xs:element name="n3" type="xs:int" minOccurs="0" />
+							<xs:element name="x3" type="xs:double" minOccurs="0" />
+							<xs:element name="d3" type="xs:double" minOccurs="0" />
+							<xs:element name="dia4" type="xs:int" minOccurs="0" />
+							<xs:element name="n4" type="xs:int" minOccurs="0" />
+							<xs:element name="x4" type="xs:double" minOccurs="0" />
+							<xs:element name="d4" type="xs:double" minOccurs="0" />
+							<xs:element name="dia5" type="xs:int" minOccurs="0" />
+							<xs:element name="n5" type="xs:int" minOccurs="0" />
+							<xs:element name="x5" type="xs:double" minOccurs="0" />
+							<xs:element name="d5" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Grafica">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Resistencia" type="xs:double" minOccurs="0" />
+							<xs:element name="Imagen" type="xs:base64Binary" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

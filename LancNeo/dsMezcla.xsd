@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsMezcla" targetNamespace="http://tempuri.org/dsMezcla.xsd" xmlns:mstns="http://tempuri.org/dsMezcla.xsd" xmlns="http://tempuri.org/dsMezcla.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsMezcla" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsMezcla" msprop:Generator_UserDSName="dsMezcla">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Mezcla" msprop:Generator_TableClassName="MezclaDataTable" msprop:Generator_TableVarName="tableMezcla" msprop:Generator_TablePropName="Mezcla" msprop:Generator_RowDeletingName="MezclaRowDeleting" msprop:Generator_RowChangingName="MezclaRowChanging" msprop:Generator_RowEvHandlerName="MezclaRowChangeEventHandler" msprop:Generator_RowDeletedName="MezclaRowDeleted" msprop:Generator_UserTableName="Mezcla" msprop:Generator_RowChangedName="MezclaRowChanged" msprop:Generator_RowEvArgName="MezclaRowChangeEvent" msprop:Generator_RowClassName="MezclaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:short" minOccurs="0" />
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

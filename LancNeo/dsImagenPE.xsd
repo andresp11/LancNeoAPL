@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsImagenPE" targetNamespace="http://tempuri.org/dsImagenPE.xsd" xmlns:mstns="http://tempuri.org/dsImagenPE.xsd" xmlns="http://tempuri.org/dsImagenPE.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsImagenPE" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsImagenPE" msprop:Generator_UserDSName="dsImagenPE">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ImagenPE" msprop:Generator_TableClassName="ImagenPEDataTable" msprop:Generator_TableVarName="tableImagenPE" msprop:Generator_TablePropName="ImagenPE" msprop:Generator_RowDeletingName="ImagenPERowDeleting" msprop:Generator_RowChangingName="ImagenPERowChanging" msprop:Generator_RowEvHandlerName="ImagenPERowChangeEventHandler" msprop:Generator_RowDeletedName="ImagenPERowDeleted" msprop:Generator_UserTableName="ImagenPE" msprop:Generator_RowChangedName="ImagenPERowChanged" msprop:Generator_RowEvArgName="ImagenPERowChangeEvent" msprop:Generator_RowClassName="ImagenPERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Folio" msprop:Generator_ColumnVarNameInTable="columnFolio" msprop:Generator_ColumnPropNameInRow="Folio" msprop:Generator_ColumnPropNameInTable="FolioColumn" msprop:Generator_UserColumnName="Folio">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdConcepto" msprop:Generator_ColumnVarNameInTable="columnIdConcepto" msprop:Generator_ColumnPropNameInRow="IdConcepto" msprop:Generator_ColumnPropNameInTable="IdConceptoColumn" msprop:Generator_UserColumnName="IdConcepto" type="xs:short" />
+              <xs:element name="IdObra" msprop:Generator_ColumnVarNameInTable="columnIdObra" msprop:Generator_ColumnPropNameInRow="IdObra" msprop:Generator_ColumnPropNameInTable="IdObraColumn" msprop:Generator_UserColumnName="IdObra">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ConsObra" msprop:Generator_ColumnVarNameInTable="columnConsObra" msprop:Generator_ColumnPropNameInRow="ConsObra" msprop:Generator_ColumnPropNameInTable="ConsObraColumn" msprop:Generator_UserColumnName="ConsObra" type="xs:short" minOccurs="0" />
+              <xs:element name="Fmuestreo" msprop:Generator_ColumnVarNameInTable="columnFmuestreo" msprop:Generator_ColumnPropNameInRow="Fmuestreo" msprop:Generator_ColumnPropNameInTable="FmuestreoColumn" msprop:Generator_UserColumnName="Fmuestreo" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Imagen" msprop:Generator_ColumnVarNameInTable="columnImagen" msprop:Generator_ColumnPropNameInRow="Imagen" msprop:Generator_ColumnPropNameInTable="ImagenColumn" msprop:Generator_UserColumnName="Imagen" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Periodo" msprop:Generator_ColumnVarNameInTable="columnPeriodo" msprop:Generator_ColumnPropNameInRow="Periodo" msprop:Generator_ColumnPropNameInTable="PeriodoColumn" msprop:Generator_UserColumnName="Periodo" type="xs:short" minOccurs="0" />
+              <xs:element name="IdUsusario" msprop:Generator_ColumnVarNameInTable="columnIdUsusario" msprop:Generator_ColumnPropNameInRow="IdUsusario" msprop:Generator_ColumnPropNameInTable="IdUsusarioColumn" msprop:Generator_UserColumnName="IdUsusario" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ImagenPE" />
+      <xs:field xpath="mstns:Folio" />
+      <xs:field xpath="mstns:IdConcepto" />
+      <xs:field xpath="mstns:IdObra" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsBusEsp" targetNamespace="http://tempuri.org/dsBusEsp.xsd" xmlns:mstns="http://tempuri.org/dsBusEsp.xsd" xmlns="http://tempuri.org/dsBusEsp.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsBusEsp" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsBusEsp" msprop:Generator_UserDSName="dsBusEsp">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="NucleoEsp" msprop:Generator_TableClassName="NucleoEspDataTable" msprop:Generator_TableVarName="tableNucleoEsp" msprop:Generator_TablePropName="NucleoEsp" msprop:Generator_RowDeletingName="NucleoEspRowDeleting" msprop:Generator_RowChangingName="NucleoEspRowChanging" msprop:Generator_RowEvHandlerName="NucleoEspRowChangeEventHandler" msprop:Generator_RowDeletedName="NucleoEspRowDeleted" msprop:Generator_UserTableName="NucleoEsp" msprop:Generator_RowChangedName="NucleoEspRowChanged" msprop:Generator_RowEvArgName="NucleoEspRowChangeEvent" msprop:Generator_RowClassName="NucleoEspRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdObra" msprop:Generator_ColumnVarNameInTable="columnIdObra" msprop:Generator_ColumnPropNameInRow="IdObra" msprop:Generator_ColumnPropNameInTable="IdObraColumn" msprop:Generator_UserColumnName="IdObra">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Folio" msprop:Generator_ColumnVarNameInTable="columnFolio" msprop:Generator_ColumnPropNameInRow="Folio" msprop:Generator_ColumnPropNameInTable="FolioColumn" msprop:Generator_UserColumnName="Folio">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Semana" msprop:Generator_ColumnVarNameInTable="columnSemana" msprop:Generator_ColumnPropNameInRow="Semana" msprop:Generator_ColumnPropNameInTable="SemanaColumn" msprop:Generator_UserColumnName="Semana" type="xs:short" minOccurs="0" />
+              <xs:element name="FechaM" msprop:Generator_ColumnVarNameInTable="columnFechaM" msprop:Generator_ColumnPropNameInRow="FechaM" msprop:Generator_ColumnPropNameInTable="FechaMColumn" msprop:Generator_UserColumnName="FechaM" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FechaE" msprop:Generator_ColumnVarNameInTable="columnFechaE" msprop:Generator_ColumnPropNameInRow="FechaE" msprop:Generator_ColumnPropNameInTable="FechaEColumn" msprop:Generator_UserColumnName="FechaE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:NucleoEsp" />
+      <xs:field xpath="mstns:IdObra" />
+      <xs:field xpath="mstns:Folio" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

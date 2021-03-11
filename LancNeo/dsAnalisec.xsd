@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsAnalisec" targetNamespace="http://tempuri.org/dsAnalisec.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/dsAnalisec.xsd" xmlns:mstns="http://tempuri.org/dsAnalisec.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsAnalisec" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Analisis1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdObra" type="xs:string" minOccurs="0" />
+							<xs:element name="Fecha" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Hora" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Rev" type="xs:float" minOccurs="0" />
+							<xs:element name="Muestra" type="xs:int" minOccurs="0" />
+							<xs:element name="_x0020__x0020_3" type="xs:float" minOccurs="0" />
+							<xs:element name="_x0020_3i" type="xs:float" minOccurs="0" />
+							<xs:element name="_x0020__x0020_7" type="xs:float" minOccurs="0" />
+							<xs:element name="_x0020_7i" type="xs:float" minOccurs="0" />
+							<xs:element name="C" type="xs:string" minOccurs="0" />
+							<xs:element name="ee1" type="xs:float" minOccurs="0" />
+							<xs:element name="ee2" type="xs:float" minOccurs="0" />
+							<xs:element name="Int" type="xs:float" minOccurs="0" />
+							<xs:element name="Prm" type="xs:float" minOccurs="0" />
+							<xs:element name="Dia" type="xs:float" minOccurs="0" />
+							<xs:element name="Con" type="xs:float" minOccurs="0" />
+							<xs:element name="_x0032_00" type="xs:float" minOccurs="0" />
+							<xs:element name="_x0020_63" type="xs:float" minOccurs="0" />
+							<xs:element name="N" type="xs:int" minOccurs="0" />
+							<xs:element name="Elemento" type="xs:string" minOccurs="0" />
+							<xs:element name="Ejes" type="xs:string" minOccurs="0" />
+							<xs:element name="Edif" type="xs:string" minOccurs="0" />
+							<xs:element name="Nivel" type="xs:string" minOccurs="0" />
+							<xs:element name="unico" type="xs:int" minOccurs="0" />
+							<xs:element name="hoja" type="xs:int" minOccurs="0" />
+							<xs:element name="a1" type="xs:int" minOccurs="0" />
+							<xs:element name="a2" type="xs:int" minOccurs="0" />
+							<xs:element name="a3" type="xs:int" minOccurs="0" />
+							<xs:element name="CG" type="xs:int" minOccurs="0" />
+							<xs:element name="NL" type="xs:string" minOccurs="0" />
+							<xs:element name="CL" type="xs:int" minOccurs="0" />
+							<xs:element name="LM" type="xs:int" minOccurs="0" />
+							<xs:element name="LE" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GraficaFinal">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Ejex" type="xs:string" minOccurs="0" />
+							<xs:element name="c1" type="xs:float" minOccurs="0" />
+							<xs:element name="c2" type="xs:float" minOccurs="0" />
+							<xs:element name="c3" type="xs:float" minOccurs="0" />
+							<xs:element name="c4" type="xs:float" minOccurs="0" />
+							<xs:element name="c5" type="xs:float" minOccurs="0" />
+							<xs:element name="c6" type="xs:float" minOccurs="0" />
+							<xs:element name="c7" type="xs:float" minOccurs="0" />
+							<xs:element name="c8" type="xs:float" minOccurs="0" />
+							<xs:element name="c9" type="xs:float" minOccurs="0" />
+							<xs:element name="c10" type="xs:float" minOccurs="0" />
+							<xs:element name="c11" type="xs:float" minOccurs="0" />
+							<xs:element name="c12" type="xs:float" minOccurs="0" />
+							<xs:element name="c13" type="xs:float" minOccurs="0" />
+							<xs:element name="c14" type="xs:float" minOccurs="0" />
+							<xs:element name="c15" type="xs:float" minOccurs="0" />
+							<xs:element name="c16" type="xs:float" minOccurs="0" />
+							<xs:element name="c17" type="xs:float" minOccurs="0" />
+							<xs:element name="c18" type="xs:float" minOccurs="0" />
+							<xs:element name="c19" type="xs:float" minOccurs="0" />
+							<xs:element name="c20" type="xs:float" minOccurs="0" />
+							<xs:element name="c21" type="xs:float" minOccurs="0" />
+							<xs:element name="c22" type="xs:float" minOccurs="0" />
+							<xs:element name="c23" type="xs:float" minOccurs="0" />
+							<xs:element name="Hoja" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="titulo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Ejex" type="xs:string" minOccurs="0" />
+							<xs:element name="c1" type="xs:float" minOccurs="0" />
+							<xs:element name="c2" type="xs:float" minOccurs="0" />
+							<xs:element name="c3" type="xs:float" minOccurs="0" />
+							<xs:element name="c4" type="xs:float" minOccurs="0" />
+							<xs:element name="c5" type="xs:float" minOccurs="0" />
+							<xs:element name="c6" type="xs:float" minOccurs="0" />
+							<xs:element name="c7" type="xs:float" minOccurs="0" />
+							<xs:element name="c8" type="xs:float" minOccurs="0" />
+							<xs:element name="c9" type="xs:float" minOccurs="0" />
+							<xs:element name="c10" type="xs:float" minOccurs="0" />
+							<xs:element name="c11" type="xs:float" minOccurs="0" />
+							<xs:element name="c12" type="xs:float" minOccurs="0" />
+							<xs:element name="Hoja" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Grafica1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Hoja" type="xs:int" minOccurs="0" />
+							<xs:element name="Ejex" type="xs:string" minOccurs="0" />
+							<xs:element name="c1" type="xs:int" minOccurs="0" />
+							<xs:element name="c2" type="xs:int" minOccurs="0" />
+							<xs:element name="c3" type="xs:int" minOccurs="0" />
+							<xs:element name="c4" type="xs:int" minOccurs="0" />
+							<xs:element name="c5" type="xs:int" minOccurs="0" />
+							<xs:element name="c6" type="xs:int" minOccurs="0" />
+							<xs:element name="c7" type="xs:int" minOccurs="0" />
+							<xs:element name="c8" type="xs:int" minOccurs="0" />
+							<xs:element name="c9" type="xs:int" minOccurs="0" />
+							<xs:element name="c10" type="xs:int" minOccurs="0" />
+							<xs:element name="c11" type="xs:int" minOccurs="0" />
+							<xs:element name="c12" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

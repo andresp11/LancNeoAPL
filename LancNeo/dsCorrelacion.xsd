@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsCorrelacion" targetNamespace="http://www.tempuri.org/dsCorrelacion.xsd" xmlns:mstns="http://www.tempuri.org/dsCorrelacion.xsd" xmlns="http://www.tempuri.org/dsCorrelacion.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsCorrelacion" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Correlacion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdObra" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Hora" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Muestra" type="xs:int" minOccurs="0" />
+              <xs:element name="x" type="xs:double" minOccurs="0" />
+              <xs:element name="y" type="xs:double" minOccurs="0" />
+              <xs:element name="logy" type="xs:double" minOccurs="0" />
+              <xs:element name="logy2" type="xs:double" minOccurs="0" />
+              <xs:element name="x2" type="xs:double" minOccurs="0" />
+              <xs:element name="xy" type="xs:double" minOccurs="0" />
+              <xs:element name="xlogy" type="xs:double" minOccurs="0" />
+              <xs:element name="x-x" type="xs:double" minOccurs="0" />
+              <xs:element name="y-y" type="xs:double" minOccurs="0" />
+              <xs:element name="y-ylog" type="xs:double" minOccurs="0" />
+              <xs:element name="y_x0027_" type="xs:double" minOccurs="0" />
+              <xs:element name="x-" type="xs:double" minOccurs="0" />
+              <xs:element name="y-" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

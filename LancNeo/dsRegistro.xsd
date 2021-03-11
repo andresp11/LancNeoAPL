@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsRegistro" targetNamespace="http://tempuri.org/dsRegistro.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/dsRegistro.xsd" xmlns:mstns="http://tempuri.org/dsRegistro.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsRegistro" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Registro">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="FechaReg" type="xs:dateTime" />
+							<xs:element name="HoraReg" type="xs:dateTime" />
+							<xs:element name="IdObra" type="xs:string" />
+							<xs:element name="IdConcretera" type="xs:string" />
+							<xs:element name="IdPlanta" type="xs:short" />
+							<xs:element name="FechaIni" type="xs:dateTime" />
+							<xs:element name="FechaFin" type="xs:dateTime" />
+							<xs:element name="ResistenciaKG" type="xs:float" />
+							<xs:element name="Tipo" type="xs:int" />
+							<xs:element name="Agregado" type="xs:float" />
+							<xs:element name="Revenimiento" type="xs:float" minOccurs="0" />
+							<xs:element name="IdAgregado" type="xs:int" />
+							<xs:element name="IdPrueba" type="xs:short" />
+							<xs:element name="IdUnidad" type="xs:short" />
+							<xs:element name="Todos" type="xs:boolean" />
+							<xs:element name="IdDiam" type="xs:short" />
+							<xs:element name="IdUsuario" type="xs:string" />
+							<xs:element name="TipoD" type="xs:string" minOccurs="0" />
+							<xs:element name="IdAgregadoD" type="xs:string" minOccurs="0" />
+							<xs:element name="IdPruebaD" type="xs:string" minOccurs="0" />
+							<xs:element name="IdDiamD" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="dsRegistroKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Registro" />
+			<xs:field xpath="mstns:FechaReg" />
+			<xs:field xpath="mstns:IdObra" />
+			<xs:field xpath="mstns:IdConcretera" />
+			<xs:field xpath="mstns:IdPlanta" />
+			<xs:field xpath="mstns:FechaFin" />
+			<xs:field xpath="mstns:ResistenciaKG" />
+			<xs:field xpath="mstns:Tipo" />
+			<xs:field xpath="mstns:Agregado" />
+			<xs:field xpath="mstns:IdAgregado" />
+			<xs:field xpath="mstns:IdPrueba" />
+			<xs:field xpath="mstns:IdUnidad" />
+			<xs:field xpath="mstns:IdDiam" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

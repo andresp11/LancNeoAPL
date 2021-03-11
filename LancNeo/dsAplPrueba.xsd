@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsAplPrueba" targetNamespace="http://www.tempuri.org/dsAplPrueba.xsd" xmlns:mstns="http://www.tempuri.org/dsAplPrueba.xsd" xmlns="http://www.tempuri.org/dsAplPrueba.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsAplPrueba" msdata:IsDataSet="true" msdata:Locale="es-MX">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Analisis">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EsA" type="xs:short" minOccurs="0" />
+              <xs:element name="DiA" type="xs:int" minOccurs="0" />
+              <xs:element name="EdA" type="xs:string" minOccurs="0" />
+              <xs:element name="OrA" type="xs:short" minOccurs="0" />
+              <xs:element name="EsB" type="xs:short" minOccurs="0" />
+              <xs:element name="DiB" type="xs:int" minOccurs="0" />
+              <xs:element name="EdB" type="xs:string" minOccurs="0" />
+              <xs:element name="OrB" type="xs:short" minOccurs="0" />
+              <xs:element name="EsC" type="xs:short" minOccurs="0" />
+              <xs:element name="DiC" type="xs:int" minOccurs="0" />
+              <xs:element name="EdC" type="xs:string" minOccurs="0" />
+              <xs:element name="OrC" type="xs:short" minOccurs="0" />
+              <xs:element name="EsD" type="xs:short" minOccurs="0" />
+              <xs:element name="DiD" type="xs:int" minOccurs="0" />
+              <xs:element name="EdD" type="xs:string" minOccurs="0" />
+              <xs:element name="OrD" type="xs:short" minOccurs="0" />
+              <xs:element name="EsE" type="xs:short" minOccurs="0" />
+              <xs:element name="DiE" type="xs:int" minOccurs="0" />
+              <xs:element name="EdE" type="xs:string" minOccurs="0" />
+              <xs:element name="OrE" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EsA" type="xs:short" minOccurs="0" />
+              <xs:element name="DiA" type="xs:int" minOccurs="0" />
+              <xs:element name="EdA" type="xs:string" minOccurs="0" />
+              <xs:element name="OrA" type="xs:short" minOccurs="0" />
+              <xs:element name="EsB" type="xs:short" minOccurs="0" />
+              <xs:element name="DiB" type="xs:int" minOccurs="0" />
+              <xs:element name="EdB" type="xs:string" minOccurs="0" />
+              <xs:element name="OrB" type="xs:short" minOccurs="0" />
+              <xs:element name="EsC" type="xs:short" minOccurs="0" />
+              <xs:element name="DiC" type="xs:int" minOccurs="0" />
+              <xs:element name="EdC" type="xs:string" minOccurs="0" />
+              <xs:element name="OrC" type="xs:short" minOccurs="0" />
+              <xs:element name="EsD" type="xs:short" minOccurs="0" />
+              <xs:element name="DiD" type="xs:int" minOccurs="0" />
+              <xs:element name="EdD" type="xs:string" minOccurs="0" />
+              <xs:element name="OrD" type="xs:short" minOccurs="0" />
+              <xs:element name="EsE" type="xs:short" minOccurs="0" />
+              <xs:element name="DiE" type="xs:int" minOccurs="0" />
+              <xs:element name="EdE" type="xs:string" minOccurs="0" />
+              <xs:element name="OrE" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

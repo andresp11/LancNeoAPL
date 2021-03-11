@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPrecioIncorporado" targetNamespace="http://tempuri.org/dsPrecioIncorporado.xsd" xmlns:mstns="http://tempuri.org/dsPrecioIncorporado.xsd" xmlns="http://tempuri.org/dsPrecioIncorporado.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPrecioIncorporado" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsPrecioIncorporado" msprop:Generator_UserDSName="dsPrecioIncorporado">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PrecioDet" msprop:Generator_TableClassName="PrecioDetDataTable" msprop:Generator_TableVarName="tablePrecioDet" msprop:Generator_TablePropName="PrecioDet" msprop:Generator_RowDeletingName="PrecioDetRowDeleting" msprop:Generator_RowChangingName="PrecioDetRowChanging" msprop:Generator_RowEvHandlerName="PrecioDetRowChangeEventHandler" msprop:Generator_RowDeletedName="PrecioDetRowDeleted" msprop:Generator_UserTableName="PrecioDet" msprop:Generator_RowChangedName="PrecioDetRowChanged" msprop:Generator_RowEvArgName="PrecioDetRowChangeEvent" msprop:Generator_RowClassName="PrecioDetRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdPrecio" msprop:Generator_ColumnVarNameInTable="columnIdPrecio" msprop:Generator_ColumnPropNameInRow="IdPrecio" msprop:Generator_ColumnPropNameInTable="IdPrecioColumn" msprop:Generator_UserColumnName="IdPrecio">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaFin" msprop:Generator_ColumnVarNameInTable="columnFechaFin" msprop:Generator_ColumnPropNameInRow="FechaFin" msprop:Generator_ColumnPropNameInTable="FechaFinColumn" msprop:Generator_UserColumnName="FechaFin" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" msprop:Generator_UserColumnName="Precio" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Unidad" msprop:Generator_ColumnVarNameInTable="columnUnidad" msprop:Generator_ColumnPropNameInRow="Unidad" msprop:Generator_ColumnPropNameInTable="UnidadColumn" msprop:Generator_UserColumnName="Unidad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescLP" msprop:Generator_ColumnVarNameInTable="columnDescLP" msprop:Generator_ColumnPropNameInRow="DescLP" msprop:Generator_ColumnPropNameInTable="DescLPColumn" msprop:Generator_UserColumnName="DescLP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescRz" msprop:Generator_ColumnVarNameInTable="columnDescRz" msprop:Generator_ColumnPropNameInRow="DescRz" msprop:Generator_ColumnPropNameInTable="DescRzColumn" msprop:Generator_UserColumnName="DescRz" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PrecioDet" />
+      <xs:field xpath="mstns:IdPrecio" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

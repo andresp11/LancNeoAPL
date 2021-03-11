@@ -1,0 +1,79 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="dsTabiqueMdor" targetNamespace="http://www.tempuri.org/dsTabiqueMdor.xsd" xmlns:mstns="http://www.tempuri.org/dsTabiqueMdor.xsd"
+	xmlns="http://www.tempuri.org/dsTabiqueMdor.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="dsTabiqueMdor" msdata:IsDataSet="true" msdata:Locale="es-MX">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="TabiqueMdor">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="FOLIO" type="xs:string" />
+							<xs:element name="IdObra" type="xs:string" minOccurs="0" />
+							<xs:element name="ConsObra" type="xs:short" minOccurs="0" />
+							<xs:element name="FMuestreo" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FEnsaye" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FInforme" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="NoEco" type="xs:short" minOccurs="0" />
+							<xs:element name="Semana" type="xs:short" minOccurs="0" />
+							<xs:element name="MReducida" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Unidad" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Cumple" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Norma" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Como" type="xs:string" minOccurs="0" />
+							<xs:element name="ObsComo" type="xs:string" minOccurs="0" />
+							<xs:element name="Tipo" type="xs:string" minOccurs="0" />
+							<xs:element name="Subtipo" type="xs:string" minOccurs="0" />
+							<xs:element name="Grado" type="xs:string" minOccurs="0" />
+							<xs:element name="Empleado" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Observaciones" type="xs:string" minOccurs="0" />
+							<xs:element name="Largo" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Ancho" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Peralte" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TabiqueRes">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="FOLIO" type="xs:string" />
+							<xs:element name="MUESTRA" type="xs:int" />
+							<xs:element name="TMuestra" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Largo" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Ancho" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Peralte" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Masa" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Area" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RcAInd" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RcAPro" type="xs:decimal" minOccurs="0" />
+							<xs:element name="EspInd" type="xs:decimal" minOccurs="0" />
+							<xs:element name="EspPro" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Normas">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdNorma" type="xs:short" />
+							<xs:element name="Informe" type="xs:string" minOccurs="0" />
+							<xs:element name="Normas" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:TabiqueMdor" />
+			<xs:field xpath="mstns:FOLIO" />
+		</xs:unique>
+		<xs:unique name="TabiqueRes_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:TabiqueRes" />
+			<xs:field xpath="mstns:FOLIO" />
+			<xs:field xpath="mstns:MUESTRA" />
+		</xs:unique>
+		<xs:keyref name="Tabique" refer="Constraint1">
+			<xs:selector xpath=".//mstns:TabiqueRes" />
+			<xs:field xpath="mstns:FOLIO" />
+		</xs:keyref>
+	</xs:element>
+</xs:schema>

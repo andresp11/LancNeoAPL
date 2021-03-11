@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsBusEspecimen" targetNamespace="http://www.tempuri.org/dsBusEspecimen.xsd" xmlns:mstns="http://www.tempuri.org/dsBusEspecimen.xsd" xmlns="http://www.tempuri.org/dsBusEspecimen.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsBusEspecimen" msdata:IsDataSet="true" msdata:Locale="es-MX">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Especimen">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Obra" type="xs:string" />
+              <xs:element name="Cons." type="xs:short" />
+              <xs:element name="Fecha_x0020__x0020__x0020__x0020__x0020_" type="xs:dateTime" />
+              <xs:element name="Muestra" type="xs:int" minOccurs="0" />
+              <xs:element name="Especimen" type="xs:short" />
+              <xs:element name="Concretera" type="xs:string" />
+              <xs:element name="Planta" type="xs:int" minOccurs="0" />
+              <xs:element name="f_x0027_c_x0020_" type="xs:float" />
+              <xs:element name="TP_x0020_" type="xs:string" minOccurs="0" />
+              <xs:element name="TMA_x0020_" type="xs:float" />
+              <xs:element name="RV_x0020_" type="xs:float" minOccurs="0" />
+              <xs:element name="GC_x0020_" type="xs:string" minOccurs="0" />
+              <xs:element name="TA_x0020__x0020__x0020_" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

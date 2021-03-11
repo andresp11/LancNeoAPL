@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsMuestras" targetNamespace="http://www.tempuri.org/dsMuestras.xsd" xmlns:mstns="http://www.tempuri.org/dsMuestras.xsd"
+	xmlns="http://www.tempuri.org/dsMuestras.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="dsMuestras" msdata:IsDataSet="true" msdata:Locale="es-MX">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Muestreador">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdObra" type="xs:string" />
+							<xs:element name="Fecha" type="xs:dateTime" />
+							<xs:element name="NoEco" type="xs:short" />
+							<xs:element name="Semana" type="xs:short" />
+							<xs:element name="Hinicio" type="xs:dateTime" />
+							<xs:element name="Hfinal" type="xs:dateTime" />
+							<xs:element name="Vsolicitado" type="xs:float" minOccurs="0" />
+							<xs:element name="Textra" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Volumen" type="xs:double" minOccurs="0" />
+							<xs:element name="Nmuestras" type="xs:short" />
+							<xs:element name="Ncilindros" type="xs:short" minOccurs="0" />
+							<xs:element name="M1dv" type="xs:short" minOccurs="0" />
+							<xs:element name="M3dv" type="xs:short" minOccurs="0" />
+							<xs:element name="M3d" type="xs:short" minOccurs="0" />
+							<xs:element name="M7d" type="xs:short" minOccurs="0" />
+							<xs:element name="M14d" type="xs:short" minOccurs="0" />
+							<xs:element name="M28d" type="xs:short" minOccurs="0" />
+							<xs:element name="Observaciones" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Muestras">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdObra" type="xs:string" />
+							<xs:element name="Muestra" type="xs:int" minOccurs="0" />
+							<xs:element name="Fecha" type="xs:dateTime" />
+							<xs:element name="Consecutivo" type="xs:short" />
+							<xs:element name="IdConcretera" type="xs:string" />
+							<xs:element name="IdPlanta" type="xs:int" minOccurs="0" />
+							<xs:element name="ResistenciaKG" type="xs:float" />
+							<xs:element name="Tipo" type="xs:int" />
+							<xs:element name="Agregado" type="xs:float" />
+							<xs:element name="Revenimento" type="xs:float" minOccurs="0" />
+							<xs:element name="Grado" type="xs:string" />
+							<xs:element name="IdAgregado" type="xs:int" />
+							<xs:element name="IdRemision" type="xs:string" minOccurs="0" />
+							<xs:element name="IdOlla" type="xs:int" minOccurs="0" />
+							<xs:element name="Volumen" type="xs:double" minOccurs="0" />
+							<xs:element name="Hora" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="RevObt" type="xs:float" minOccurs="0" />
+							<xs:element name="Elemento" type="xs:string" minOccurs="0" />
+							<xs:element name="Ejes" type="xs:string" minOccurs="0" />
+							<xs:element name="Nivel" type="xs:string" minOccurs="0" />
+							<xs:element name="Edif" type="xs:string" minOccurs="0" />
+							<xs:element name="Observa" type="xs:string" minOccurs="0" />
+							<xs:element name="IdDescarga" type="xs:short" />
+							<xs:element name="Origen" type="xs:short" minOccurs="0" />
+							<xs:element name="ResBajo" type="xs:short" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Muestreador" />
+			<xs:field xpath="mstns:IdObra" />
+			<xs:field xpath="mstns:Fecha" />
+		</xs:unique>
+		<xs:unique name="Muestras_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Muestras" />
+			<xs:field xpath="mstns:IdObra" />
+			<xs:field xpath="mstns:Fecha" />
+			<xs:field xpath="mstns:Consecutivo" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

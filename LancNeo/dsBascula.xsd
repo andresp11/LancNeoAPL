@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsBascula" targetNamespace="http://www.tempuri.org/dsBascula.xsd" xmlns:mstns="http://www.tempuri.org/dsBascula.xsd" xmlns="http://www.tempuri.org/dsBascula.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsBascula" msdata:IsDataSet="true" msdata:Locale="es-MX">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Bascula">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdBascula" type="xs:string" />
+              <xs:element name="Bascula" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Bascula" />
+      <xs:field xpath="mstns:IdBascula" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

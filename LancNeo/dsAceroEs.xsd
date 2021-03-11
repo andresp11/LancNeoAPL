@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAceroEs" targetNamespace="http://www.tempuri.org/dsAceroEs.xsd" xmlns:mstns="http://www.tempuri.org/dsAceroEs.xsd" xmlns="http://www.tempuri.org/dsAceroEs.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAceroEs" msdata:IsDataSet="true" msdata:Locale="es-MX" msprop:Generator_DataSetName="dsAceroEs" msprop:Generator_UserDSName="dsAceroEs">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ProbetaEsp" msprop:Generator_TableClassName="ProbetaEspDataTable" msprop:Generator_TableVarName="tableProbetaEsp" msprop:Generator_TablePropName="ProbetaEsp" msprop:Generator_RowDeletingName="ProbetaEspRowDeleting" msprop:Generator_RowChangingName="ProbetaEspRowChanging" msprop:Generator_RowEvHandlerName="ProbetaEspRowChangeEventHandler" msprop:Generator_RowDeletedName="ProbetaEspRowDeleted" msprop:Generator_UserTableName="ProbetaEsp" msprop:Generator_RowChangedName="ProbetaEspRowChanged" msprop:Generator_RowEvArgName="ProbetaEspRowChangeEvent" msprop:Generator_RowClassName="ProbetaEspRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FOLIO" msprop:Generator_ColumnVarNameInTable="columnFOLIO" msprop:Generator_ColumnPropNameInRow="FOLIO" msprop:Generator_ColumnPropNameInTable="FOLIOColumn" msprop:Generator_UserColumnName="FOLIO" type="xs:string" />
+              <xs:element name="Especifica" msprop:Generator_ColumnVarNameInTable="columnEspecifica" msprop:Generator_ColumnPropNameInRow="Especifica" msprop:Generator_ColumnPropNameInTable="EspecificaColumn" msprop:Generator_UserColumnName="Especifica" type="xs:short" />
+              <xs:element name="Numero" msprop:Generator_ColumnVarNameInTable="columnNumero" msprop:Generator_ColumnPropNameInRow="Numero" msprop:Generator_ColumnPropNameInTable="NumeroColumn" msprop:Generator_UserColumnName="Numero" type="xs:string" minOccurs="0" />
+              <xs:element name="Grado" msprop:Generator_ColumnVarNameInTable="columnGrado" msprop:Generator_ColumnPropNameInRow="Grado" msprop:Generator_ColumnPropNameInTable="GradoColumn" msprop:Generator_UserColumnName="Grado" type="xs:string" minOccurs="0" />
+              <xs:element name="Masa" msprop:Generator_ColumnVarNameInTable="columnMasa" msprop:Generator_ColumnPropNameInRow="Masa" msprop:Generator_ColumnPropNameInTable="MasaColumn" msprop:Generator_UserColumnName="Masa" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EsfuerzoLE" msprop:Generator_ColumnVarNameInTable="columnEsfuerzoLE" msprop:Generator_ColumnPropNameInRow="EsfuerzoLE" msprop:Generator_ColumnPropNameInTable="EsfuerzoLEColumn" msprop:Generator_UserColumnName="EsfuerzoLE" type="xs:int" minOccurs="0" />
+              <xs:element name="EsfuerzoMAX" msprop:Generator_ColumnVarNameInTable="columnEsfuerzoMAX" msprop:Generator_ColumnPropNameInRow="EsfuerzoMAX" msprop:Generator_ColumnPropNameInTable="EsfuerzoMAXColumn" msprop:Generator_UserColumnName="EsfuerzoMAX" type="xs:int" minOccurs="0" />
+              <xs:element name="Alargamiento" msprop:Generator_ColumnVarNameInTable="columnAlargamiento" msprop:Generator_ColumnPropNameInRow="Alargamiento" msprop:Generator_ColumnPropNameInTable="AlargamientoColumn" msprop:Generator_UserColumnName="Alargamiento" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Separacion" msprop:Generator_ColumnVarNameInTable="columnSeparacion" msprop:Generator_ColumnPropNameInRow="Separacion" msprop:Generator_ColumnPropNameInTable="SeparacionColumn" msprop:Generator_UserColumnName="Separacion" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Altura" msprop:Generator_ColumnVarNameInTable="columnAltura" msprop:Generator_ColumnPropNameInRow="Altura" msprop:Generator_ColumnPropNameInTable="AlturaColumn" msprop:Generator_UserColumnName="Altura" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Ancho" msprop:Generator_ColumnVarNameInTable="columnAncho" msprop:Generator_ColumnPropNameInRow="Ancho" msprop:Generator_ColumnPropNameInTable="AnchoColumn" msprop:Generator_UserColumnName="Ancho" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Inclinacion" msprop:Generator_ColumnVarNameInTable="columnInclinacion" msprop:Generator_ColumnPropNameInRow="Inclinacion" msprop:Generator_ColumnPropNameInTable="InclinacionColumn" msprop:Generator_UserColumnName="Inclinacion" type="xs:string" minOccurs="0" />
+              <xs:element name="Doblado" msprop:Generator_ColumnVarNameInTable="columnDoblado" msprop:Generator_ColumnPropNameInRow="Doblado" msprop:Generator_ColumnPropNameInTable="DobladoColumn" msprop:Generator_UserColumnName="Doblado" type="xs:string" minOccurs="0" />
+              <xs:element name="Nominal" msprop:Generator_ColumnVarNameInTable="columnNominal" msprop:Generator_ColumnPropNameInRow="Nominal" msprop:Generator_ColumnPropNameInTable="NominalColumn" msprop:Generator_UserColumnName="Nominal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RTEF" msprop:Generator_ColumnVarNameInTable="columnRTEF" msprop:Generator_ColumnPropNameInRow="RTEF" msprop:Generator_ColumnPropNameInTable="RTEFColumn" msprop:Generator_UserColumnName="RTEF" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IdUsuario" msprop:Generator_ColumnVarNameInTable="columnIdUsuario" msprop:Generator_ColumnPropNameInRow="IdUsuario" msprop:Generator_ColumnPropNameInTable="IdUsuarioColumn" msprop:Generator_UserColumnName="IdUsuario" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProbetaRes" msprop:Generator_TableClassName="ProbetaResDataTable" msprop:Generator_TableVarName="tableProbetaRes" msprop:Generator_TablePropName="ProbetaRes" msprop:Generator_RowDeletingName="ProbetaResRowDeleting" msprop:Generator_RowChangingName="ProbetaResRowChanging" msprop:Generator_RowEvHandlerName="ProbetaResRowChangeEventHandler" msprop:Generator_RowDeletedName="ProbetaResRowDeleted" msprop:Generator_UserTableName="ProbetaRes" msprop:Generator_RowChangedName="ProbetaResRowChanged" msprop:Generator_RowEvArgName="ProbetaResRowChangeEvent" msprop:Generator_RowClassName="ProbetaResRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FOLIO" msprop:Generator_ColumnVarNameInTable="columnFOLIO" msprop:Generator_ColumnPropNameInRow="FOLIO" msprop:Generator_ColumnPropNameInTable="FOLIOColumn" msprop:Generator_UserColumnName="FOLIO" type="xs:string" />
+              <xs:element name="Especifica" msprop:Generator_ColumnVarNameInTable="columnEspecifica" msprop:Generator_ColumnPropNameInRow="Especifica" msprop:Generator_ColumnPropNameInTable="EspecificaColumn" msprop:Generator_UserColumnName="Especifica" type="xs:short" />
+              <xs:element name="Muestra" msprop:Generator_ColumnVarNameInTable="columnMuestra" msprop:Generator_ColumnPropNameInRow="Muestra" msprop:Generator_ColumnPropNameInTable="MuestraColumn" msprop:Generator_UserColumnName="Muestra" type="xs:short" />
+              <xs:element name="Masa" msprop:Generator_ColumnVarNameInTable="columnMasa" msprop:Generator_ColumnPropNameInRow="Masa" msprop:Generator_ColumnPropNameInTable="MasaColumn" msprop:Generator_UserColumnName="Masa" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Area" msprop:Generator_ColumnVarNameInTable="columnArea" msprop:Generator_ColumnPropNameInRow="Area" msprop:Generator_ColumnPropNameInTable="AreaColumn" msprop:Generator_UserColumnName="Area" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CargaLE" msprop:Generator_ColumnVarNameInTable="columnCargaLE" msprop:Generator_ColumnPropNameInRow="CargaLE" msprop:Generator_ColumnPropNameInTable="CargaLEColumn" msprop:Generator_UserColumnName="CargaLE" type="xs:int" minOccurs="0" />
+              <xs:element name="CargaMax" msprop:Generator_ColumnVarNameInTable="columnCargaMax" msprop:Generator_ColumnPropNameInRow="CargaMax" msprop:Generator_ColumnPropNameInTable="CargaMaxColumn" msprop:Generator_UserColumnName="CargaMax" type="xs:int" minOccurs="0" />
+              <xs:element name="EsfuerzoLE" msprop:Generator_ColumnVarNameInTable="columnEsfuerzoLE" msprop:Generator_ColumnPropNameInRow="EsfuerzoLE" msprop:Generator_ColumnPropNameInTable="EsfuerzoLEColumn" msprop:Generator_UserColumnName="EsfuerzoLE" type="xs:int" minOccurs="0" />
+              <xs:element name="EsfuerzoMAX" msprop:Generator_ColumnVarNameInTable="columnEsfuerzoMAX" msprop:Generator_ColumnPropNameInRow="EsfuerzoMAX" msprop:Generator_ColumnPropNameInTable="EsfuerzoMAXColumn" msprop:Generator_UserColumnName="EsfuerzoMAX" type="xs:int" minOccurs="0" />
+              <xs:element name="Alargamiento" msprop:Generator_ColumnVarNameInTable="columnAlargamiento" msprop:Generator_ColumnPropNameInRow="Alargamiento" msprop:Generator_ColumnPropNameInTable="AlargamientoColumn" msprop:Generator_UserColumnName="Alargamiento" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Doblado" msprop:Generator_ColumnVarNameInTable="columnDoblado" msprop:Generator_ColumnPropNameInRow="Doblado" msprop:Generator_ColumnPropNameInTable="DobladoColumn" msprop:Generator_UserColumnName="Doblado" type="xs:string" minOccurs="0" />
+              <xs:element name="Separacion" msprop:Generator_ColumnVarNameInTable="columnSeparacion" msprop:Generator_ColumnPropNameInRow="Separacion" msprop:Generator_ColumnPropNameInTable="SeparacionColumn" msprop:Generator_UserColumnName="Separacion" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Altura" msprop:Generator_ColumnVarNameInTable="columnAltura" msprop:Generator_ColumnPropNameInRow="Altura" msprop:Generator_ColumnPropNameInTable="AlturaColumn" msprop:Generator_UserColumnName="Altura" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Ancho" msprop:Generator_ColumnVarNameInTable="columnAncho" msprop:Generator_ColumnPropNameInRow="Ancho" msprop:Generator_ColumnPropNameInTable="AnchoColumn" msprop:Generator_UserColumnName="Ancho" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Inclinacion" msprop:Generator_ColumnVarNameInTable="columnInclinacion" msprop:Generator_ColumnPropNameInRow="Inclinacion" msprop:Generator_ColumnPropNameInTable="InclinacionColumn" msprop:Generator_UserColumnName="Inclinacion" type="xs:string" minOccurs="0" />
+              <xs:element name="Observaciones" msprop:Generator_ColumnVarNameInTable="columnObservaciones" msprop:Generator_ColumnPropNameInRow="Observaciones" msprop:Generator_ColumnPropNameInTable="ObservacionesColumn" msprop:Generator_UserColumnName="Observaciones" type="xs:string" minOccurs="0" />
+              <xs:element name="RTEF" msprop:Generator_ColumnVarNameInTable="columnRTEF" msprop:Generator_ColumnPropNameInRow="RTEF" msprop:Generator_ColumnPropNameInTable="RTEFColumn" msprop:Generator_UserColumnName="RTEF" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Colada" msprop:Generator_ColumnVarNameInTable="columnColada" msprop:Generator_ColumnPropNameInRow="Colada" msprop:Generator_ColumnPropNameInTable="ColadaColumn" msprop:Generator_UserColumnName="Colada" type="xs:string" minOccurs="0" />
+              <xs:element name="Remesa" msprop:Generator_ColumnVarNameInTable="columnRemesa" msprop:Generator_ColumnPropNameInRow="Remesa" msprop:Generator_ColumnPropNameInTable="RemesaColumn" msprop:Generator_UserColumnName="Remesa" type="xs:string" minOccurs="0" />
+              <xs:element name="Atado" msprop:Generator_ColumnVarNameInTable="columnAtado" msprop:Generator_ColumnPropNameInRow="Atado" msprop:Generator_ColumnPropNameInTable="AtadoColumn" msprop:Generator_UserColumnName="Atado" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:ProbetaEsp" />
+      <xs:field xpath="mstns:FOLIO" />
+      <xs:field xpath="mstns:Especifica" />
+    </xs:unique>
+    <xs:unique name="ProbetaRes_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ProbetaRes" />
+      <xs:field xpath="mstns:FOLIO" />
+      <xs:field xpath="mstns:Especifica" />
+      <xs:field xpath="mstns:Muestra" />
+    </xs:unique>
+    <xs:keyref name="Probeta" refer="Constraint1" msprop:rel_Generator_UserChildTable="ProbetaRes" msprop:rel_Generator_ChildPropName="GetProbetaResRows" msprop:rel_Generator_UserRelationName="Probeta" msprop:rel_Generator_ParentPropName="ProbetaEspRowParent" msprop:rel_Generator_RelationVarName="relationProbeta" msprop:rel_Generator_UserParentTable="ProbetaEsp">
+      <xs:selector xpath=".//mstns:ProbetaRes" />
+      <xs:field xpath="mstns:FOLIO" />
+      <xs:field xpath="mstns:Especifica" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

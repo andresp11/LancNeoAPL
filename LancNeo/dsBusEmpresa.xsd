@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsBusEmpresa" targetNamespace="http://www.tempuri.org/dsBusEmpresa.xsd" xmlns:mstns="http://www.tempuri.org/dsBusEmpresa.xsd" xmlns="http://www.tempuri.org/dsBusEmpresa.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsBusEmpresa" msdata:IsDataSet="true" msdata:Locale="es-MX" msprop:Generator_DataSetName="dsBusEmpresa" msprop:Generator_UserDSName="dsBusEmpresa">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Razonsocial" msprop:Generator_TableClassName="RazonsocialDataTable" msprop:Generator_TableVarName="tableRazonsocial" msprop:Generator_RowChangedName="RazonsocialRowChanged" msprop:Generator_TablePropName="Razonsocial" msprop:Generator_RowDeletingName="RazonsocialRowDeleting" msprop:Generator_RowChangingName="RazonsocialRowChanging" msprop:Generator_RowEvHandlerName="RazonsocialRowChangeEventHandler" msprop:Generator_RowDeletedName="RazonsocialRowDeleted" msprop:Generator_RowClassName="RazonsocialRow" msprop:Generator_UserTableName="Razonsocial" msprop:Generator_RowEvArgName="RazonsocialRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCliente" msprop:nullValue="_null" msprop:Generator_ColumnPropNameInRow="IdCliente" msprop:Generator_ColumnVarNameInTable="columnIdCliente" msprop:Generator_ColumnPropNameInTable="IdClienteColumn" msprop:Generator_UserColumnName="IdCliente" type="xs:string" minOccurs="0" />
+              <xs:element name="RFC" msprop:Generator_ColumnVarNameInTable="columnRFC" msprop:Generator_ColumnPropNameInRow="RFC" msprop:Generator_ColumnPropNameInTable="RFCColumn" msprop:Generator_UserColumnName="RFC" type="xs:string" />
+              <xs:element name="Facturar" msprop:Generator_ColumnVarNameInTable="columnFacturar" msprop:Generator_ColumnPropNameInRow="Facturar" msprop:Generator_ColumnPropNameInTable="FacturarColumn" msprop:Generator_UserColumnName="Facturar" type="xs:string" minOccurs="0" />
+              <xs:element name="Cliente" msprop:Generator_ColumnVarNameInTable="columnCliente" msprop:Generator_ColumnPropNameInRow="Cliente" msprop:Generator_ColumnPropNameInTable="ClienteColumn" msprop:Generator_UserColumnName="Cliente" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

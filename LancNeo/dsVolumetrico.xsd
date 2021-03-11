@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsVolumetrico" targetNamespace="http://www.tempuri.org/dsVolumetrico.xsd" xmlns:mstns="http://www.tempuri.org/dsVolumetrico.xsd" xmlns="http://www.tempuri.org/dsVolumetrico.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsVolumetrico" msdata:IsDataSet="true" msdata:Locale="es-MX" msprop:Generator_DataSetName="dsVolumetrico" msprop:Generator_UserDSName="dsVolumetrico">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Volumetrico" msprop:Generator_TableClassName="VolumetricoDataTable" msprop:Generator_TableVarName="tableVolumetrico" msprop:Generator_TablePropName="Volumetrico" msprop:Generator_RowDeletingName="VolumetricoRowDeleting" msprop:Generator_RowChangingName="VolumetricoRowChanging" msprop:Generator_RowEvHandlerName="VolumetricoRowChangeEventHandler" msprop:Generator_RowDeletedName="VolumetricoRowDeleted" msprop:Generator_UserTableName="Volumetrico" msprop:Generator_RowChangedName="VolumetricoRowChanged" msprop:Generator_RowEvArgName="VolumetricoRowChangeEvent" msprop:Generator_RowClassName="VolumetricoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FOLIO" msprop:Generator_ColumnVarNameInTable="columnFOLIO" msprop:Generator_ColumnPropNameInRow="FOLIO" msprop:Generator_ColumnPropNameInTable="FOLIOColumn" msprop:Generator_UserColumnName="FOLIO" type="xs:string" />
+              <xs:element name="IdObra" msprop:Generator_ColumnVarNameInTable="columnIdObra" msprop:Generator_ColumnPropNameInRow="IdObra" msprop:Generator_ColumnPropNameInTable="IdObraColumn" msprop:Generator_UserColumnName="IdObra" type="xs:string" minOccurs="0" />
+              <xs:element name="ConsObra" msprop:Generator_ColumnVarNameInTable="columnConsObra" msprop:Generator_ColumnPropNameInRow="ConsObra" msprop:Generator_ColumnPropNameInTable="ConsObraColumn" msprop:Generator_UserColumnName="ConsObra" type="xs:short" minOccurs="0" />
+              <xs:element name="Finforme" msprop:Generator_ColumnVarNameInTable="columnFinforme" msprop:Generator_ColumnPropNameInRow="Finforme" msprop:Generator_ColumnPropNameInTable="FinformeColumn" msprop:Generator_UserColumnName="Finforme" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NoEco" msprop:Generator_ColumnVarNameInTable="columnNoEco" msprop:Generator_ColumnPropNameInRow="NoEco" msprop:Generator_ColumnPropNameInTable="NoEcoColumn" msprop:Generator_UserColumnName="NoEco" type="xs:short" minOccurs="0" />
+              <xs:element name="Semana" msprop:Generator_ColumnVarNameInTable="columnSemana" msprop:Generator_ColumnPropNameInRow="Semana" msprop:Generator_ColumnPropNameInTable="SemanaColumn" msprop:Generator_UserColumnName="Semana" type="xs:short" minOccurs="0" />
+              <xs:element name="Observaciones" msprop:Generator_ColumnVarNameInTable="columnObservaciones" msprop:Generator_ColumnPropNameInRow="Observaciones" msprop:Generator_ColumnPropNameInTable="ObservacionesColumn" msprop:Generator_UserColumnName="Observaciones" type="xs:string" minOccurs="0" />
+              <xs:element name="FEnsaye" msprop:Generator_ColumnVarNameInTable="columnFEnsaye" msprop:Generator_ColumnPropNameInRow="FEnsaye" msprop:Generator_ColumnPropNameInTable="FEnsayeColumn" msprop:Generator_UserColumnName="FEnsaye" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IdUsuario" msprop:Generator_ColumnVarNameInTable="columnIdUsuario" msprop:Generator_ColumnPropNameInRow="IdUsuario" msprop:Generator_ColumnPropNameInTable="IdUsuarioColumn" msprop:Generator_UserColumnName="IdUsuario" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VolumetricoRes" msprop:Generator_TableClassName="VolumetricoResDataTable" msprop:Generator_TableVarName="tableVolumetricoRes" msprop:Generator_TablePropName="VolumetricoRes" msprop:Generator_RowDeletingName="VolumetricoResRowDeleting" msprop:Generator_RowChangingName="VolumetricoResRowChanging" msprop:Generator_RowEvHandlerName="VolumetricoResRowChangeEventHandler" msprop:Generator_RowDeletedName="VolumetricoResRowDeleted" msprop:Generator_UserTableName="VolumetricoRes" msprop:Generator_RowChangedName="VolumetricoResRowChanged" msprop:Generator_RowEvArgName="VolumetricoResRowChangeEvent" msprop:Generator_RowClassName="VolumetricoResRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FOLIO" msprop:Generator_ColumnVarNameInTable="columnFOLIO" msprop:Generator_ColumnPropNameInRow="FOLIO" msprop:Generator_ColumnPropNameInTable="FOLIOColumn" msprop:Generator_UserColumnName="FOLIO" type="xs:string" />
+              <xs:element name="Prueba" msprop:Generator_ColumnVarNameInTable="columnPrueba" msprop:Generator_ColumnPropNameInRow="Prueba" msprop:Generator_ColumnPropNameInTable="PruebaColumn" msprop:Generator_UserColumnName="Prueba" type="xs:string" />
+              <xs:element name="FECHA" msprop:Generator_ColumnVarNameInTable="columnFECHA" msprop:Generator_ColumnPropNameInRow="FECHA" msprop:Generator_ColumnPropNameInTable="FECHAColumn" msprop:Generator_UserColumnName="FECHA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IdLaboratorio" msprop:Generator_ColumnVarNameInTable="columnIdLaboratorio" msprop:Generator_ColumnPropNameInRow="IdLaboratorio" msprop:Generator_ColumnPropNameInTable="IdLaboratorioColumn" msprop:Generator_UserColumnName="IdLaboratorio" type="xs:string" minOccurs="0" />
+              <xs:element name="Material" msprop:Generator_ColumnVarNameInTable="columnMaterial" msprop:Generator_ColumnPropNameInRow="Material" msprop:Generator_ColumnPropNameInTable="MaterialColumn" msprop:Generator_UserColumnName="Material" type="xs:string" minOccurs="0" />
+              <xs:element name="Tipoprueba" msprop:Generator_ColumnVarNameInTable="columnTipoprueba" msprop:Generator_ColumnPropNameInRow="Tipoprueba" msprop:Generator_ColumnPropNameInTable="TipopruebaColumn" msprop:Generator_UserColumnName="Tipoprueba" type="xs:string" minOccurs="0" />
+              <xs:element name="Masa" msprop:Generator_ColumnVarNameInTable="columnMasa" msprop:Generator_ColumnPropNameInRow="Masa" msprop:Generator_ColumnPropNameInTable="MasaColumn" msprop:Generator_UserColumnName="Masa" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Optimo" msprop:Generator_ColumnVarNameInTable="columnOptimo" msprop:Generator_ColumnPropNameInRow="Optimo" msprop:Generator_ColumnPropNameInTable="OptimoColumn" msprop:Generator_UserColumnName="Optimo" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Volumetrico" />
+      <xs:field xpath="mstns:FOLIO" />
+    </xs:unique>
+    <xs:unique name="dsVolumetricoKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:VolumetricoRes" />
+      <xs:field xpath="mstns:FOLIO" />
+      <xs:field xpath="mstns:Prueba" />
+    </xs:unique>
+    <xs:keyref name="VolumetricoVolumetricoRes" refer="Constraint1" msprop:rel_Generator_UserChildTable="VolumetricoRes" msprop:rel_Generator_ChildPropName="GetVolumetricoResRows" msprop:rel_Generator_UserRelationName="VolumetricoVolumetricoRes" msprop:rel_Generator_ParentPropName="VolumetricoRow" msprop:rel_Generator_RelationVarName="relationVolumetricoVolumetricoRes" msprop:rel_Generator_UserParentTable="Volumetrico">
+      <xs:selector xpath=".//mstns:VolumetricoRes" />
+      <xs:field xpath="mstns:FOLIO" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

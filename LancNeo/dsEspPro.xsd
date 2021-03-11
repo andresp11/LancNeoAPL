@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsEspPro" targetNamespace="http://tempuri.org/dsEspPro.xsd" xmlns:mstns="http://tempuri.org/dsEspPro.xsd" xmlns="http://tempuri.org/dsEspPro.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsEspPro" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsEspPro" msprop:Generator_UserDSName="dsEspPro">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Especimen" msprop:Generator_TableClassName="EspecimenDataTable" msprop:Generator_TableVarName="tableEspecimen" msprop:Generator_RowChangedName="EspecimenRowChanged" msprop:Generator_TablePropName="Especimen" msprop:Generator_RowDeletingName="EspecimenRowDeleting" msprop:Generator_RowChangingName="EspecimenRowChanging" msprop:Generator_RowEvHandlerName="EspecimenRowChangeEventHandler" msprop:Generator_RowDeletedName="EspecimenRowDeleted" msprop:Generator_RowClassName="EspecimenRow" msprop:Generator_UserTableName="Especimen" msprop:Generator_RowEvArgName="EspecimenRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdObra" msprop:Generator_ColumnVarNameInTable="columnIdObra" msprop:Generator_ColumnPropNameInRow="IdObra" msprop:Generator_ColumnPropNameInTable="IdObraColumn" msprop:Generator_UserColumnName="IdObra">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:dateTime" />
+              <xs:element name="Consecutivo" msprop:Generator_ColumnVarNameInTable="columnConsecutivo" msprop:Generator_ColumnPropNameInRow="Consecutivo" msprop:Generator_ColumnPropNameInTable="ConsecutivoColumn" msprop:Generator_UserColumnName="Consecutivo" type="xs:short" />
+              <xs:element name="IdEspecimen" msprop:Generator_ColumnVarNameInTable="columnIdEspecimen" msprop:Generator_ColumnPropNameInRow="IdEspecimen" msprop:Generator_ColumnPropNameInTable="IdEspecimenColumn" msprop:Generator_UserColumnName="IdEspecimen" type="xs:short" />
+              <xs:element name="Dia" msprop:Generator_ColumnVarNameInTable="columnDia" msprop:Generator_ColumnPropNameInRow="Dia" msprop:Generator_ColumnPropNameInTable="DiaColumn" msprop:Generator_UserColumnName="Dia" type="xs:int" />
+              <xs:element name="IdEnsaye" msprop:Generator_ColumnVarNameInTable="columnIdEnsaye" msprop:Generator_ColumnPropNameInRow="IdEnsaye" msprop:Generator_ColumnPropNameInTable="IdEnsayeColumn" msprop:Generator_UserColumnName="IdEnsaye" type="xs:short" minOccurs="0" />
+              <xs:element name="Fensaye" msprop:Generator_ColumnVarNameInTable="columnFensaye" msprop:Generator_ColumnPropNameInRow="Fensaye" msprop:Generator_ColumnPropNameInTable="FensayeColumn" msprop:Generator_UserColumnName="Fensaye" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Vapor" msprop:Generator_ColumnVarNameInTable="columnVapor" msprop:Generator_ColumnPropNameInRow="Vapor" msprop:Generator_ColumnPropNameInTable="VaporColumn" msprop:Generator_UserColumnName="Vapor" type="xs:int" />
+              <xs:element name="IdLaboratorio" msprop:Generator_ColumnVarNameInTable="columnIdLaboratorio" msprop:Generator_ColumnPropNameInRow="IdLaboratorio" msprop:Generator_ColumnPropNameInTable="IdLaboratorioColumn" msprop:Generator_UserColumnName="IdLaboratorio">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoEco" msprop:Generator_ColumnVarNameInTable="columnNoEco" msprop:Generator_ColumnPropNameInRow="NoEco" msprop:Generator_ColumnPropNameInTable="NoEcoColumn" msprop:Generator_UserColumnName="NoEco" type="xs:short" />
+              <xs:element name="IdPrueba" msprop:Generator_ColumnVarNameInTable="columnIdPrueba" msprop:Generator_ColumnPropNameInRow="IdPrueba" msprop:Generator_ColumnPropNameInTable="IdPruebaColumn" msprop:Generator_UserColumnName="IdPrueba" type="xs:short" />
+              <xs:element name="IdDiam" msprop:Generator_ColumnVarNameInTable="columnIdDiam" msprop:Generator_ColumnPropNameInRow="IdDiam" msprop:Generator_ColumnPropNameInTable="IdDiamColumn" msprop:Generator_UserColumnName="IdDiam" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Especimen" />
+      <xs:field xpath="mstns:IdObra" />
+      <xs:field xpath="mstns:Fecha" />
+      <xs:field xpath="mstns:Consecutivo" />
+      <xs:field xpath="mstns:IdEspecimen" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

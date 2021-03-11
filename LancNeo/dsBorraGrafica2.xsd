@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="dsBorraGrafica2" targetNamespace="http://www.tempuri.org/dsBorraGrafica2.xsd"
+	xmlns:mstns="http://www.tempuri.org/dsBorraGrafica2.xsd" xmlns="http://www.tempuri.org/dsBorraGrafica2.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+	attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="dsBorraGrafica2" msdata:IsDataSet="true" msdata:Locale="es-MX">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="temporal4">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="gr" type="xs:int" minOccurs="0" />
+							<xs:element name="ejex" type="xs:int" minOccurs="0" />
+							<xs:element name="_x0031_50" type="xs:int" minOccurs="0" />
+							<xs:element name="_x0031_80" type="xs:int" minOccurs="0" />
+							<xs:element name="_x0032_10" type="xs:int" minOccurs="0" />
+							<xs:element name="_x0032_40" type="xs:int" minOccurs="0" />
+							<xs:element name="_x0032_70" type="xs:int" minOccurs="0" />
+							<xs:element name="_x0033_00" type="xs:int" minOccurs="0" />
+							<xs:element name="_x0033_30" type="xs:int" minOccurs="0" />
+							<xs:element name="_x0033_60" type="xs:int" minOccurs="0" />
+							<xs:element name="_x0033_90" type="xs:int" minOccurs="0" />
+							<xs:element name="_x0034_20" type="xs:int" minOccurs="0" />
+							<xs:element name="_x0034_50" type="xs:int" minOccurs="0" />
+							<xs:element name="_x0034_80" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="dsBorraGrafica2Key1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:temporal4" />
+			<xs:field xpath="mstns:gr" />
+			<xs:field xpath="mstns:ejex" />
+		</xs:key>
+	</xs:element>
+</xs:schema>

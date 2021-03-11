@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="dsInfAgregadosMal" targetNamespace="http://www.tempuri.org/dsInfAgregadosMal.xsd"
+	xmlns:mstns="http://www.tempuri.org/dsInfAgregadosMal.xsd" xmlns="http://www.tempuri.org/dsInfAgregadosMal.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+	attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="dsInfAgregadosMal" msdata:IsDataSet="true" msdata:Locale="es-MX">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="AgregadosMal">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Folio" type="xs:string" minOccurs="0" />
+							<xs:element name="Renglon" type="xs:short" minOccurs="0" />
+							<xs:element name="Grava" type="xs:decimal" minOccurs="0" />
+							<xs:element name="GravaSI" type="xs:string" minOccurs="0" />
+							<xs:element name="Arena" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ArenaSI" type="xs:string" minOccurs="0" />
+							<xs:element name="Acumulado" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Quepasa" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Nomina" type="xs:decimal" minOccurs="0" />
+							<xs:element name="NominalSup" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

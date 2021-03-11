@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsGraficaFinal" targetNamespace="http://tempuri.org/dsGraficaFinal.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/dsGraficaFinal.xsd" xmlns:mstns="http://tempuri.org/dsGraficaFinal.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsGraficaFinal" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Analisis">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Ejex" type="xs:string" minOccurs="0" />
+							<xs:element name="c1" type="xs:float" minOccurs="0" />
+							<xs:element name="c2" type="xs:float" minOccurs="0" />
+							<xs:element name="c3" type="xs:float" minOccurs="0" />
+							<xs:element name="c4" type="xs:float" minOccurs="0" />
+							<xs:element name="c5" type="xs:float" minOccurs="0" />
+							<xs:element name="c6" type="xs:float" minOccurs="0" />
+							<xs:element name="c7" type="xs:float" minOccurs="0" />
+							<xs:element name="c8" type="xs:float" minOccurs="0" />
+							<xs:element name="c9" type="xs:float" minOccurs="0" />
+							<xs:element name="c10" type="xs:float" minOccurs="0" />
+							<xs:element name="c11" type="xs:float" minOccurs="0" />
+							<xs:element name="c12" type="xs:float" minOccurs="0" />
+							<xs:element name="c13" type="xs:float" minOccurs="0" />
+							<xs:element name="c14" type="xs:float" minOccurs="0" />
+							<xs:element name="c15" type="xs:float" minOccurs="0" />
+							<xs:element name="c16" type="xs:float" minOccurs="0" />
+							<xs:element name="c17" type="xs:float" minOccurs="0" />
+							<xs:element name="c18" type="xs:float" minOccurs="0" />
+							<xs:element name="c19" type="xs:float" minOccurs="0" />
+							<xs:element name="c20" type="xs:float" minOccurs="0" />
+							<xs:element name="c21" type="xs:float" minOccurs="0" />
+							<xs:element name="c22" type="xs:float" minOccurs="0" />
+							<xs:element name="c23" type="xs:float" minOccurs="0" />
+							<xs:element name="Hoja" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

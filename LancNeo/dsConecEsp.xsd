@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsConecEsp" targetNamespace="http://www.tempuri.org/dsConecEsp.xsd" xmlns:mstns="http://www.tempuri.org/dsConecEsp.xsd" xmlns="http://www.tempuri.org/dsConecEsp.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsConecEsp" msdata:IsDataSet="true" msdata:Locale="es-MX" msprop:Generator_DataSetName="dsConecEsp" msprop:Generator_UserDSName="dsConecEsp">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ConecEsp" msprop:Generator_TableClassName="ConecEspDataTable" msprop:Generator_TableVarName="tableConecEsp" msprop:Generator_TablePropName="ConecEsp" msprop:Generator_RowDeletingName="ConecEspRowDeleting" msprop:Generator_RowChangingName="ConecEspRowChanging" msprop:Generator_RowEvHandlerName="ConecEspRowChangeEventHandler" msprop:Generator_RowDeletedName="ConecEspRowDeleted" msprop:Generator_UserTableName="ConecEsp" msprop:Generator_RowChangedName="ConecEspRowChanged" msprop:Generator_RowEvArgName="ConecEspRowChangeEvent" msprop:Generator_RowClassName="ConecEspRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FOLIO" msprop:Generator_ColumnVarNameInTable="columnFOLIO" msprop:Generator_ColumnPropNameInRow="FOLIO" msprop:Generator_ColumnPropNameInTable="FOLIOColumn" msprop:Generator_UserColumnName="FOLIO" type="xs:string" />
+              <xs:element name="Especifica" msprop:Generator_ColumnVarNameInTable="columnEspecifica" msprop:Generator_ColumnPropNameInRow="Especifica" msprop:Generator_ColumnPropNameInTable="EspecificaColumn" msprop:Generator_UserColumnName="Especifica" type="xs:short" />
+              <xs:element name="Numero" msprop:Generator_ColumnVarNameInTable="columnNumero" msprop:Generator_ColumnPropNameInRow="Numero" msprop:Generator_ColumnPropNameInTable="NumeroColumn" msprop:Generator_UserColumnName="Numero" type="xs:string" minOccurs="0" />
+              <xs:element name="Aci" msprop:Generator_ColumnVarNameInTable="columnAci" msprop:Generator_ColumnPropNameInRow="Aci" msprop:Generator_ColumnPropNameInTable="AciColumn" msprop:Generator_UserColumnName="Aci" type="xs:string" minOccurs="0" />
+              <xs:element name="EsfuerzoFLU" msprop:Generator_ColumnVarNameInTable="columnEsfuerzoFLU" msprop:Generator_ColumnPropNameInRow="EsfuerzoFLU" msprop:Generator_ColumnPropNameInTable="EsfuerzoFLUColumn" msprop:Generator_UserColumnName="EsfuerzoFLU" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EsfuerzoMAX" msprop:Generator_ColumnVarNameInTable="columnEsfuerzoMAX" msprop:Generator_ColumnPropNameInRow="EsfuerzoMAX" msprop:Generator_ColumnPropNameInTable="EsfuerzoMAXColumn" msprop:Generator_UserColumnName="EsfuerzoMAX" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AciI" msprop:Generator_ColumnVarNameInTable="columnAciI" msprop:Generator_ColumnPropNameInRow="AciI" msprop:Generator_ColumnPropNameInTable="AciIColumn" msprop:Generator_UserColumnName="AciI" type="xs:string" minOccurs="0" />
+              <xs:element name="EsfuerzoFLU1" msprop:Generator_ColumnVarNameInTable="columnEsfuerzoFLU1" msprop:Generator_ColumnPropNameInRow="EsfuerzoFLU1" msprop:Generator_ColumnPropNameInTable="EsfuerzoFLU1Column" msprop:Generator_UserColumnName="EsfuerzoFLU1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EsfuerzoMAX1" msprop:Generator_ColumnVarNameInTable="columnEsfuerzoMAX1" msprop:Generator_ColumnPropNameInRow="EsfuerzoMAX1" msprop:Generator_ColumnPropNameInTable="EsfuerzoMAX1Column" msprop:Generator_UserColumnName="EsfuerzoMAX1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IdUsuario" msprop:Generator_ColumnVarNameInTable="columnIdUsuario" msprop:Generator_ColumnPropNameInRow="IdUsuario" msprop:Generator_ColumnPropNameInTable="IdUsuarioColumn" msprop:Generator_UserColumnName="IdUsuario" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ConceRes" msprop:Generator_TableClassName="ConceResDataTable" msprop:Generator_TableVarName="tableConceRes" msprop:Generator_TablePropName="ConceRes" msprop:Generator_RowDeletingName="ConceResRowDeleting" msprop:Generator_RowChangingName="ConceResRowChanging" msprop:Generator_RowEvHandlerName="ConceResRowChangeEventHandler" msprop:Generator_RowDeletedName="ConceResRowDeleted" msprop:Generator_UserTableName="ConceRes" msprop:Generator_RowChangedName="ConceResRowChanged" msprop:Generator_RowEvArgName="ConceResRowChangeEvent" msprop:Generator_RowClassName="ConceResRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FOLIO" msprop:Generator_ColumnVarNameInTable="columnFOLIO" msprop:Generator_ColumnPropNameInRow="FOLIO" msprop:Generator_ColumnPropNameInTable="FOLIOColumn" msprop:Generator_UserColumnName="FOLIO" type="xs:string" />
+              <xs:element name="Especifica" msprop:Generator_ColumnVarNameInTable="columnEspecifica" msprop:Generator_ColumnPropNameInRow="Especifica" msprop:Generator_ColumnPropNameInTable="EspecificaColumn" msprop:Generator_UserColumnName="Especifica" type="xs:short" />
+              <xs:element name="Muestra" msprop:Generator_ColumnVarNameInTable="columnMuestra" msprop:Generator_ColumnPropNameInRow="Muestra" msprop:Generator_ColumnPropNameInTable="MuestraColumn" msprop:Generator_UserColumnName="Muestra" type="xs:short" />
+              <xs:element name="Numero" msprop:Generator_ColumnVarNameInTable="columnNumero" msprop:Generator_ColumnPropNameInRow="Numero" msprop:Generator_ColumnPropNameInTable="NumeroColumn" msprop:Generator_UserColumnName="Numero" type="xs:string" minOccurs="0" />
+              <xs:element name="Grado" msprop:Generator_ColumnVarNameInTable="columnGrado" msprop:Generator_ColumnPropNameInRow="Grado" msprop:Generator_ColumnPropNameInTable="GradoColumn" msprop:Generator_UserColumnName="Grado" type="xs:string" minOccurs="0" />
+              <xs:element name="Junta" msprop:Generator_ColumnVarNameInTable="columnJunta" msprop:Generator_ColumnPropNameInRow="Junta" msprop:Generator_ColumnPropNameInTable="JuntaColumn" msprop:Generator_UserColumnName="Junta" type="xs:string" minOccurs="0" />
+              <xs:element name="Falla" msprop:Generator_ColumnVarNameInTable="columnFalla" msprop:Generator_ColumnPropNameInRow="Falla" msprop:Generator_ColumnPropNameInTable="FallaColumn" msprop:Generator_UserColumnName="Falla" type="xs:string" minOccurs="0" />
+              <xs:element name="Area" msprop:Generator_ColumnVarNameInTable="columnArea" msprop:Generator_ColumnPropNameInRow="Area" msprop:Generator_ColumnPropNameInTable="AreaColumn" msprop:Generator_UserColumnName="Area" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CargaFLU" msprop:Generator_ColumnVarNameInTable="columnCargaFLU" msprop:Generator_ColumnPropNameInRow="CargaFLU" msprop:Generator_ColumnPropNameInTable="CargaFLUColumn" msprop:Generator_UserColumnName="CargaFLU" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CargaMAX" msprop:Generator_ColumnVarNameInTable="columnCargaMAX" msprop:Generator_ColumnPropNameInRow="CargaMAX" msprop:Generator_ColumnPropNameInTable="CargaMAXColumn" msprop:Generator_UserColumnName="CargaMAX" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EsfuerzoFLU" msprop:Generator_ColumnVarNameInTable="columnEsfuerzoFLU" msprop:Generator_ColumnPropNameInRow="EsfuerzoFLU" msprop:Generator_ColumnPropNameInTable="EsfuerzoFLUColumn" msprop:Generator_UserColumnName="EsfuerzoFLU" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EsfuerzoMax" msprop:Generator_ColumnVarNameInTable="columnEsfuerzoMax" msprop:Generator_ColumnPropNameInRow="EsfuerzoMax" msprop:Generator_ColumnPropNameInTable="EsfuerzoMaxColumn" msprop:Generator_UserColumnName="EsfuerzoMax" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Colada" msprop:Generator_ColumnVarNameInTable="columnColada" msprop:Generator_ColumnPropNameInRow="Colada" msprop:Generator_ColumnPropNameInTable="ColadaColumn" msprop:Generator_UserColumnName="Colada" type="xs:string" minOccurs="0" />
+              <xs:element name="Remesa" msprop:Generator_ColumnVarNameInTable="columnRemesa" msprop:Generator_ColumnPropNameInRow="Remesa" msprop:Generator_ColumnPropNameInTable="RemesaColumn" msprop:Generator_UserColumnName="Remesa" type="xs:string" minOccurs="0" />
+              <xs:element name="Observaciones" msprop:Generator_ColumnVarNameInTable="columnObservaciones" msprop:Generator_ColumnPropNameInRow="Observaciones" msprop:Generator_ColumnPropNameInTable="ObservacionesColumn" msprop:Generator_UserColumnName="Observaciones" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ConecEsp" />
+      <xs:field xpath="mstns:FOLIO" />
+      <xs:field xpath="mstns:Especifica" />
+    </xs:unique>
+    <xs:unique name="dsConecEspKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ConceRes" />
+      <xs:field xpath="mstns:FOLIO" />
+      <xs:field xpath="mstns:Especifica" />
+      <xs:field xpath="mstns:Muestra" />
+    </xs:unique>
+    <xs:keyref name="Conce" refer="Constraint1" msprop:rel_Generator_UserChildTable="ConceRes" msprop:rel_Generator_ChildPropName="GetConceResRows" msprop:rel_Generator_UserRelationName="Conce" msprop:rel_Generator_ParentPropName="ConecEspRowParent" msprop:rel_Generator_RelationVarName="relationConce" msprop:rel_Generator_UserParentTable="ConecEsp">
+      <xs:selector xpath=".//mstns:ConceRes" />
+      <xs:field xpath="mstns:FOLIO" />
+      <xs:field xpath="mstns:Especifica" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

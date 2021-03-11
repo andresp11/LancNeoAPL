@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsCabeceador" targetNamespace="http://www.tempuri.org/dsCabeceador.xsd" xmlns:mstns="http://www.tempuri.org/dsCabeceador.xsd" xmlns="http://www.tempuri.org/dsCabeceador.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsCabeceador" msdata:IsDataSet="true" msdata:Locale="es-MX">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Cabeceador">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCabaceador" type="xs:string" />
+              <xs:element name="Cabeceador" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Cabeceador" />
+      <xs:field xpath="mstns:IdCabaceador" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

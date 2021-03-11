@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsFirmas" targetNamespace="http://www.tempuri.org/dsFirmas.xsd" xmlns:mstns="http://www.tempuri.org/dsFirmas.xsd" xmlns="http://www.tempuri.org/dsFirmas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsFirmas" msdata:IsDataSet="true" msdata:Locale="es-MX" msprop:Generator_DataSetName="dsFirmas" msprop:Generator_UserDSName="dsFirmas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Firmas" msprop:Generator_TableClassName="FirmasDataTable" msprop:Generator_TableVarName="tableFirmas" msprop:Generator_TablePropName="Firmas" msprop:Generator_RowDeletingName="FirmasRowDeleting" msprop:Generator_RowChangingName="FirmasRowChanging" msprop:Generator_RowEvHandlerName="FirmasRowChangeEventHandler" msprop:Generator_RowDeletedName="FirmasRowDeleted" msprop:Generator_UserTableName="Firmas" msprop:Generator_RowChangedName="FirmasRowChanged" msprop:Generator_RowEvArgName="FirmasRowChangeEvent" msprop:Generator_RowClassName="FirmasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdFirma" msprop:Generator_ColumnVarNameInTable="columnIdFirma" msprop:Generator_ColumnPropNameInRow="IdFirma" msprop:Generator_ColumnPropNameInTable="IdFirmaColumn" msprop:Generator_UserColumnName="IdFirma" type="xs:short" />
+              <xs:element name="Nombre" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_UserColumnName="Nombre" type="xs:string" />
+              <xs:element name="Cargo" msprop:Generator_ColumnVarNameInTable="columnCargo" msprop:Generator_ColumnPropNameInRow="Cargo" msprop:Generator_ColumnPropNameInTable="CargoColumn" msprop:Generator_UserColumnName="Cargo" type="xs:string" />
+              <xs:element name="Imprime" msprop:Generator_ColumnVarNameInTable="columnImprime" msprop:Generator_ColumnPropNameInRow="Imprime" msprop:Generator_ColumnPropNameInTable="ImprimeColumn" msprop:Generator_UserColumnName="Imprime" type="xs:short" />
+              <xs:element name="Concreto" msprop:Generator_ColumnVarNameInTable="columnConcreto" msprop:Generator_ColumnPropNameInRow="Concreto" msprop:Generator_ColumnPropNameInTable="ConcretoColumn" msprop:Generator_UserColumnName="Concreto" type="xs:short" minOccurs="0" />
+              <xs:element name="Mortero" msprop:Generator_ColumnVarNameInTable="columnMortero" msprop:Generator_ColumnPropNameInRow="Mortero" msprop:Generator_ColumnPropNameInTable="MorteroColumn" msprop:Generator_UserColumnName="Mortero" type="xs:short" minOccurs="0" />
+              <xs:element name="Acero" msprop:Generator_ColumnVarNameInTable="columnAcero" msprop:Generator_ColumnPropNameInRow="Acero" msprop:Generator_ColumnPropNameInTable="AceroColumn" msprop:Generator_UserColumnName="Acero" type="xs:short" minOccurs="0" />
+              <xs:element name="Prefabricados" msprop:Generator_ColumnVarNameInTable="columnPrefabricados" msprop:Generator_ColumnPropNameInRow="Prefabricados" msprop:Generator_ColumnPropNameInTable="PrefabricadosColumn" msprop:Generator_UserColumnName="Prefabricados" type="xs:short" minOccurs="0" />
+              <xs:element name="Grados" msprop:Generator_ColumnVarNameInTable="columnGrados" msprop:Generator_ColumnPropNameInRow="Grados" msprop:Generator_ColumnPropNameInTable="GradosColumn" msprop:Generator_UserColumnName="Grados" type="xs:short" minOccurs="0" />
+              <xs:element name="Conector" msprop:Generator_ColumnVarNameInTable="columnConector" msprop:Generator_ColumnPropNameInRow="Conector" msprop:Generator_ColumnPropNameInTable="ConectorColumn" msprop:Generator_UserColumnName="Conector" type="xs:short" minOccurs="0" />
+              <xs:element name="Toron" msprop:Generator_ColumnVarNameInTable="columnToron" msprop:Generator_ColumnPropNameInRow="Toron" msprop:Generator_ColumnPropNameInTable="ToronColumn" msprop:Generator_UserColumnName="Toron" type="xs:short" minOccurs="0" />
+              <xs:element name="Soldadura" msprop:Generator_ColumnVarNameInTable="columnSoldadura" msprop:Generator_ColumnPropNameInRow="Soldadura" msprop:Generator_ColumnPropNameInTable="SoldaduraColumn" msprop:Generator_UserColumnName="Soldadura" type="xs:short" minOccurs="0" />
+              <xs:element name="Moduloelastico" msprop:Generator_ColumnVarNameInTable="columnModuloelastico" msprop:Generator_ColumnPropNameInRow="Moduloelastico" msprop:Generator_ColumnPropNameInTable="ModuloelasticoColumn" msprop:Generator_UserColumnName="Moduloelastico" type="xs:short" minOccurs="0" />
+              <xs:element name="Petreos" msprop:Generator_ColumnVarNameInTable="columnPetreos" msprop:Generator_ColumnPropNameInRow="Petreos" msprop:Generator_ColumnPropNameInTable="PetreosColumn" msprop:Generator_UserColumnName="Petreos" type="xs:short" minOccurs="0" />
+              <xs:element name="Materiales" msprop:Generator_ColumnVarNameInTable="columnMateriales" msprop:Generator_ColumnPropNameInRow="Materiales" msprop:Generator_ColumnPropNameInTable="MaterialesColumn" msprop:Generator_UserColumnName="Materiales" type="xs:short" minOccurs="0" />
+              <xs:element name="PlacaAcero" msprop:Generator_ColumnVarNameInTable="columnPlacaAcero" msprop:Generator_ColumnPropNameInRow="PlacaAcero" msprop:Generator_ColumnPropNameInTable="PlacaAceroColumn" msprop:Generator_UserColumnName="PlacaAcero" type="xs:short" minOccurs="0" />
+              <xs:element name="Volumetrica" msprop:Generator_ColumnVarNameInTable="columnVolumetrica" msprop:Generator_ColumnPropNameInRow="Volumetrica" msprop:Generator_ColumnPropNameInTable="VolumetricaColumn" msprop:Generator_UserColumnName="Volumetrica" type="xs:short" minOccurs="0" />
+              <xs:element name="Compactacion" msprop:Generator_ColumnVarNameInTable="columnCompactacion" msprop:Generator_ColumnPropNameInRow="Compactacion" msprop:Generator_ColumnPropNameInTable="CompactacionColumn" msprop:Generator_UserColumnName="Compactacion" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Firmas" />
+      <xs:field xpath="mstns:IdFirma" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

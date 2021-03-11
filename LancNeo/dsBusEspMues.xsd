@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsBusEspMues" targetNamespace="http://www.tempuri.org/dsBusEspMues.xsd" xmlns:mstns="http://www.tempuri.org/dsBusEspMues.xsd" xmlns="http://www.tempuri.org/dsBusEspMues.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsBusEspMues" msdata:IsDataSet="true" msdata:Locale="es-MX">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Especimen">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdObra" type="xs:string" />
+              <xs:element name="Fecha" type="xs:dateTime" />
+              <xs:element name="Prueba" type="xs:string" />
+              <xs:element name="Muestra" type="xs:int" minOccurs="0" />
+              <xs:element name="IdConcretera" type="xs:string" />
+              <xs:element name="IdPlanta" type="xs:int" minOccurs="0" />
+              <xs:element name="tipo" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsTendencia" targetNamespace="http://www.tempuri.org/dsTendencia.xsd" xmlns:mstns="http://www.tempuri.org/dsTendencia.xsd" xmlns="http://www.tempuri.org/dsTendencia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsTendencia" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_DataSetName="dsTendencia" msprop:Generator_UserDSName="dsTendencia">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RepTendencia" msprop:Generator_TableClassName="RepTendenciaDataTable" msprop:Generator_TableVarName="tableRepTendencia" msprop:Generator_TablePropName="RepTendencia" msprop:Generator_RowDeletingName="RepTendenciaRowDeleting" msprop:Generator_RowChangingName="RepTendenciaRowChanging" msprop:Generator_RowEvHandlerName="RepTendenciaRowChangeEventHandler" msprop:Generator_RowDeletedName="RepTendenciaRowDeleted" msprop:Generator_UserTableName="RepTendencia" msprop:Generator_RowChangedName="RepTendenciaRowChanged" msprop:Generator_RowEvArgName="RepTendenciaRowChangeEvent" msprop:Generator_RowClassName="RepTendenciaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdConcretera" msprop:Generator_ColumnVarNameInTable="columnIdConcretera" msprop:Generator_ColumnPropNameInRow="IdConcretera" msprop:Generator_ColumnPropNameInTable="IdConcreteraColumn" msprop:Generator_UserColumnName="IdConcretera" type="xs:string" minOccurs="0" />
+              <xs:element name="IdPlanta" msprop:Generator_ColumnVarNameInTable="columnIdPlanta" msprop:Generator_ColumnPropNameInRow="IdPlanta" msprop:Generator_ColumnPropNameInTable="IdPlantaColumn" msprop:Generator_UserColumnName="IdPlanta" type="xs:short" minOccurs="0" />
+              <xs:element name="Resistencia" msprop:Generator_ColumnVarNameInTable="columnResistencia" msprop:Generator_ColumnPropNameInRow="Resistencia" msprop:Generator_ColumnPropNameInTable="ResistenciaColumn" msprop:Generator_UserColumnName="Resistencia" type="xs:double" minOccurs="0" />
+              <xs:element name="dia1" msprop:Generator_ColumnVarNameInTable="columndia1" msprop:Generator_ColumnPropNameInRow="dia1" msprop:Generator_ColumnPropNameInTable="dia1Column" msprop:Generator_UserColumnName="dia1" type="xs:float" minOccurs="0" />
+              <xs:element name="n1" msprop:Generator_ColumnVarNameInTable="columnn1" msprop:Generator_ColumnPropNameInRow="n1" msprop:Generator_ColumnPropNameInTable="n1Column" msprop:Generator_UserColumnName="n1" type="xs:int" minOccurs="0" />
+              <xs:element name="x1" msprop:Generator_ColumnVarNameInTable="columnx1" msprop:Generator_ColumnPropNameInRow="x1" msprop:Generator_ColumnPropNameInTable="x1Column" msprop:Generator_UserColumnName="x1" type="xs:double" minOccurs="0" />
+              <xs:element name="d1" msprop:Generator_ColumnVarNameInTable="columnd1" msprop:Generator_ColumnPropNameInRow="d1" msprop:Generator_ColumnPropNameInTable="d1Column" msprop:Generator_UserColumnName="d1" type="xs:double" minOccurs="0" />
+              <xs:element name="dia2" msprop:Generator_ColumnVarNameInTable="columndia2" msprop:Generator_ColumnPropNameInRow="dia2" msprop:Generator_ColumnPropNameInTable="dia2Column" msprop:Generator_UserColumnName="dia2" type="xs:float" minOccurs="0" />
+              <xs:element name="n2" msprop:Generator_ColumnVarNameInTable="columnn2" msprop:Generator_ColumnPropNameInRow="n2" msprop:Generator_ColumnPropNameInTable="n2Column" msprop:Generator_UserColumnName="n2" type="xs:int" minOccurs="0" />
+              <xs:element name="x2" msprop:Generator_ColumnVarNameInTable="columnx2" msprop:Generator_ColumnPropNameInRow="x2" msprop:Generator_ColumnPropNameInTable="x2Column" msprop:Generator_UserColumnName="x2" type="xs:double" minOccurs="0" />
+              <xs:element name="d2" msprop:Generator_ColumnVarNameInTable="columnd2" msprop:Generator_ColumnPropNameInRow="d2" msprop:Generator_ColumnPropNameInTable="d2Column" msprop:Generator_UserColumnName="d2" type="xs:double" minOccurs="0" />
+              <xs:element name="dia3" msprop:Generator_ColumnVarNameInTable="columndia3" msprop:Generator_ColumnPropNameInRow="dia3" msprop:Generator_ColumnPropNameInTable="dia3Column" msprop:Generator_UserColumnName="dia3" type="xs:float" minOccurs="0" />
+              <xs:element name="n3" msprop:Generator_ColumnVarNameInTable="columnn3" msprop:Generator_ColumnPropNameInRow="n3" msprop:Generator_ColumnPropNameInTable="n3Column" msprop:Generator_UserColumnName="n3" type="xs:int" minOccurs="0" />
+              <xs:element name="x3" msprop:Generator_ColumnVarNameInTable="columnx3" msprop:Generator_ColumnPropNameInRow="x3" msprop:Generator_ColumnPropNameInTable="x3Column" msprop:Generator_UserColumnName="x3" type="xs:double" minOccurs="0" />
+              <xs:element name="d3" msprop:Generator_ColumnVarNameInTable="columnd3" msprop:Generator_ColumnPropNameInRow="d3" msprop:Generator_ColumnPropNameInTable="d3Column" msprop:Generator_UserColumnName="d3" type="xs:double" minOccurs="0" />
+              <xs:element name="dia4" msprop:Generator_ColumnVarNameInTable="columndia4" msprop:Generator_ColumnPropNameInRow="dia4" msprop:Generator_ColumnPropNameInTable="dia4Column" msprop:Generator_UserColumnName="dia4" type="xs:float" minOccurs="0" />
+              <xs:element name="n4" msprop:Generator_ColumnVarNameInTable="columnn4" msprop:Generator_ColumnPropNameInRow="n4" msprop:Generator_ColumnPropNameInTable="n4Column" msprop:Generator_UserColumnName="n4" type="xs:int" minOccurs="0" />
+              <xs:element name="x4" msprop:Generator_ColumnVarNameInTable="columnx4" msprop:Generator_ColumnPropNameInRow="x4" msprop:Generator_ColumnPropNameInTable="x4Column" msprop:Generator_UserColumnName="x4" type="xs:double" minOccurs="0" />
+              <xs:element name="d4" msprop:Generator_ColumnVarNameInTable="columnd4" msprop:Generator_ColumnPropNameInRow="d4" msprop:Generator_ColumnPropNameInTable="d4Column" msprop:Generator_UserColumnName="d4" type="xs:double" minOccurs="0" />
+              <xs:element name="dia5" msprop:Generator_ColumnVarNameInTable="columndia5" msprop:Generator_ColumnPropNameInRow="dia5" msprop:Generator_ColumnPropNameInTable="dia5Column" msprop:Generator_UserColumnName="dia5" type="xs:float" minOccurs="0" />
+              <xs:element name="n5" msprop:Generator_ColumnVarNameInTable="columnn5" msprop:Generator_ColumnPropNameInRow="n5" msprop:Generator_ColumnPropNameInTable="n5Column" msprop:Generator_UserColumnName="n5" type="xs:int" minOccurs="0" />
+              <xs:element name="x5" msprop:Generator_ColumnVarNameInTable="columnx5" msprop:Generator_ColumnPropNameInRow="x5" msprop:Generator_ColumnPropNameInTable="x5Column" msprop:Generator_UserColumnName="x5" type="xs:double" minOccurs="0" />
+              <xs:element name="d5" msprop:Generator_ColumnVarNameInTable="columnd5" msprop:Generator_ColumnPropNameInRow="d5" msprop:Generator_ColumnPropNameInTable="d5Column" msprop:Generator_UserColumnName="d5" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Grafica" msprop:Generator_TableClassName="GraficaDataTable" msprop:Generator_TableVarName="tableGrafica" msprop:Generator_TablePropName="Grafica" msprop:Generator_RowDeletingName="GraficaRowDeleting" msprop:Generator_RowChangingName="GraficaRowChanging" msprop:Generator_RowEvHandlerName="GraficaRowChangeEventHandler" msprop:Generator_RowDeletedName="GraficaRowDeleted" msprop:Generator_UserTableName="Grafica" msprop:Generator_RowChangedName="GraficaRowChanged" msprop:Generator_RowEvArgName="GraficaRowChangeEvent" msprop:Generator_RowClassName="GraficaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdConcretera" msprop:Generator_ColumnVarNameInTable="columnIdConcretera" msprop:Generator_ColumnPropNameInRow="IdConcretera" msprop:Generator_ColumnPropNameInTable="IdConcreteraColumn" msprop:Generator_UserColumnName="IdConcretera" type="xs:string" minOccurs="0" />
+              <xs:element name="Imagen" msprop:Generator_ColumnVarNameInTable="columnImagen" msprop:Generator_ColumnPropNameInRow="Imagen" msprop:Generator_ColumnPropNameInTable="ImagenColumn" msprop:Generator_UserColumnName="Imagen" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

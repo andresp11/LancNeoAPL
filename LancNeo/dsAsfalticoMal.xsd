@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAsfalticoMal" targetNamespace="http://www.tempuri.org/dsAsfalticoMal.xsd" xmlns:mstns="http://www.tempuri.org/dsAsfalticoMal.xsd" xmlns="http://www.tempuri.org/dsAsfalticoMal.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAsfalticoMal" msdata:IsDataSet="true" msdata:Locale="es-MX" msprop:Generator_DataSetName="dsAsfalticoMal" msprop:Generator_UserDSName="dsAsfalticoMal">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AsfalticoMal" msprop:Generator_TableClassName="AsfalticoMalDataTable" msprop:Generator_TableVarName="tableAsfalticoMal" msprop:Generator_TablePropName="AsfalticoMal" msprop:Generator_RowDeletingName="AsfalticoMalRowDeleting" msprop:Generator_RowChangingName="AsfalticoMalRowChanging" msprop:Generator_RowEvHandlerName="AsfalticoMalRowChangeEventHandler" msprop:Generator_RowDeletedName="AsfalticoMalRowDeleted" msprop:Generator_UserTableName="AsfalticoMal" msprop:Generator_RowChangedName="AsfalticoMalRowChanged" msprop:Generator_RowEvArgName="AsfalticoMalRowChangeEvent" msprop:Generator_RowClassName="AsfalticoMalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Folio" msprop:Generator_ColumnVarNameInTable="columnFolio" msprop:Generator_ColumnPropNameInRow="Folio" msprop:Generator_ColumnPropNameInTable="FolioColumn" msprop:Generator_UserColumnName="Folio" type="xs:string" />
+              <xs:element name="Renglon" msprop:Generator_ColumnVarNameInTable="columnRenglon" msprop:Generator_ColumnPropNameInRow="Renglon" msprop:Generator_ColumnPropNameInTable="RenglonColumn" msprop:Generator_UserColumnName="Renglon" type="xs:short" />
+              <xs:element name="Malla" msprop:Generator_ColumnVarNameInTable="columnMalla" msprop:Generator_ColumnPropNameInRow="Malla" msprop:Generator_ColumnPropNameInTable="MallaColumn" msprop:Generator_UserColumnName="Malla" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Linea1" msprop:Generator_ColumnVarNameInTable="columnLinea1" msprop:Generator_ColumnPropNameInRow="Linea1" msprop:Generator_ColumnPropNameInTable="Linea1Column" msprop:Generator_UserColumnName="Linea1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Linea2" msprop:Generator_ColumnVarNameInTable="columnLinea2" msprop:Generator_ColumnPropNameInRow="Linea2" msprop:Generator_ColumnPropNameInTable="Linea2Column" msprop:Generator_UserColumnName="Linea2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Quepasa" msprop:Generator_ColumnVarNameInTable="columnQuepasa" msprop:Generator_ColumnPropNameInRow="Quepasa" msprop:Generator_ColumnPropNameInTable="QuepasaColumn" msprop:Generator_UserColumnName="Quepasa" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Proyecto" msprop:Generator_ColumnVarNameInTable="columnProyecto" msprop:Generator_ColumnPropNameInRow="Proyecto" msprop:Generator_ColumnPropNameInTable="ProyectoColumn" msprop:Generator_UserColumnName="Proyecto" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Designacion" msprop:Generator_ColumnVarNameInTable="columnDesignacion" msprop:Generator_ColumnPropNameInRow="Designacion" msprop:Generator_ColumnPropNameInTable="DesignacionColumn" msprop:Generator_UserColumnName="Designacion" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AsfalticoMal" />
+      <xs:field xpath="mstns:Folio" />
+      <xs:field xpath="mstns:Renglon" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

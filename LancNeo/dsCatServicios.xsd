@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCatServicios" targetNamespace="http://tempuri.org/dsCatServicios.xsd" xmlns:mstns="http://tempuri.org/dsCatServicios.xsd" xmlns="http://tempuri.org/dsCatServicios.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCatServicios" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsCatServicios" msprop:Generator_UserDSName="dsCatServicios">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CatServicios" msprop:Generator_TableClassName="CatServiciosDataTable" msprop:Generator_TableVarName="tableCatServicios" msprop:Generator_TablePropName="CatServicios" msprop:Generator_RowDeletingName="CatServiciosRowDeleting" msprop:Generator_RowChangingName="CatServiciosRowChanging" msprop:Generator_RowEvHandlerName="CatServiciosRowChangeEventHandler" msprop:Generator_RowDeletedName="CatServiciosRowDeleted" msprop:Generator_UserTableName="CatServicios" msprop:Generator_RowChangedName="CatServiciosRowChanged" msprop:Generator_RowEvArgName="CatServiciosRowChangeEvent" msprop:Generator_RowClassName="CatServiciosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdServicio" msprop:Generator_ColumnVarNameInTable="columnIdServicio" msprop:Generator_ColumnPropNameInRow="IdServicio" msprop:Generator_ColumnPropNameInTable="IdServicioColumn" msprop:Generator_UserColumnName="IdServicio" type="xs:short" />
+              <xs:element name="Descripción" msprop:Generator_ColumnVarNameInTable="columnDescripción" msprop:Generator_ColumnPropNameInRow="Descripción" msprop:Generator_ColumnPropNameInTable="DescripciónColumn" msprop:Generator_UserColumnName="Descripción">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CatServicios" />
+      <xs:field xpath="mstns:IdServicio" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

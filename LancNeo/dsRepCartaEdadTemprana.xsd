@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsRepCartaEdadTemprana" targetNamespace="http://www.tempuri.org/dsRepCartaEdadTemprana.xsd" xmlns:mstns="http://www.tempuri.org/dsRepCartaEdadTemprana.xsd" xmlns="http://www.tempuri.org/dsRepCartaEdadTemprana.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsRepCartaEdadTemprana" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="RepCartaEdadTemprana">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdObra" type="xs:string" />
+              <xs:element name="Muestra" type="xs:int" minOccurs="0" />
+              <xs:element name="Fecha" type="xs:dateTime" />
+              <xs:element name="R3" type="xs:double" minOccurs="0" />
+              <xs:element name="R7" type="xs:double" minOccurs="0" />
+              <xs:element name="Elemento" type="xs:string" minOccurs="0" />
+              <xs:element name="Ejes" type="xs:string" minOccurs="0" />
+              <xs:element name="Nivel" type="xs:string" minOccurs="0" />
+              <xs:element name="Edif" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

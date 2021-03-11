@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsGraduracion" targetNamespace="http://tempuri.org/dsGraduracion.xsd" xmlns:mstns="http://tempuri.org/dsGraduracion.xsd" xmlns="http://tempuri.org/dsGraduracion.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="lancConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="lancConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.LancNeo.Properties.Settings.GlobalReference.Default.lancConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsGraduracion" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsGraduracion" msprop:Generator_UserDSName="dsGraduracion">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GraDuracionF" msprop:Generator_TableClassName="GraDuracionFDataTable" msprop:Generator_TableVarName="tableGraDuracionF" msprop:Generator_TablePropName="GraDuracionF" msprop:Generator_RowDeletingName="GraDuracionFRowDeleting" msprop:Generator_RowChangingName="GraDuracionFRowChanging" msprop:Generator_RowEvHandlerName="GraDuracionFRowChangeEventHandler" msprop:Generator_RowDeletedName="GraDuracionFRowDeleted" msprop:Generator_UserTableName="GraDuracionF" msprop:Generator_RowChangedName="GraDuracionFRowChanged" msprop:Generator_RowEvArgName="GraDuracionFRowChangeEvent" msprop:Generator_RowClassName="GraDuracionFRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdGrupo" msprop:Generator_ColumnVarNameInTable="columnIdGrupo" msprop:Generator_ColumnPropNameInRow="IdGrupo" msprop:Generator_ColumnPropNameInTable="IdGrupoColumn" msprop:Generator_UserColumnName="IdGrupo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IdObra" msprop:Generator_ColumnVarNameInTable="columnIdObra" msprop:Generator_ColumnPropNameInRow="IdObra" msprop:Generator_ColumnPropNameInTable="IdObraColumn" msprop:Generator_UserColumnName="IdObra" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechasF" msprop:Generator_ColumnVarNameInTable="columnFechasF" msprop:Generator_ColumnPropNameInRow="FechasF" msprop:Generator_ColumnPropNameInTable="FechasFColumn" msprop:Generator_UserColumnName="FechasF" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AñoF" msprop:Generator_ColumnVarNameInTable="columnAñoF" msprop:Generator_ColumnPropNameInRow="AñoF" msprop:Generator_ColumnPropNameInTable="AñoFColumn" msprop:Generator_UserColumnName="AñoF" type="xs:short" minOccurs="0" />
+              <xs:element name="SemanaF" msprop:Generator_ColumnVarNameInTable="columnSemanaF" msprop:Generator_ColumnPropNameInRow="SemanaF" msprop:Generator_ColumnPropNameInTable="SemanaFColumn" msprop:Generator_UserColumnName="SemanaF" type="xs:short" minOccurs="0" />
+              <xs:element name="Semanas" msprop:Generator_ColumnVarNameInTable="columnSemanas" msprop:Generator_ColumnPropNameInRow="Semanas" msprop:Generator_ColumnPropNameInTable="SemanasColumn" msprop:Generator_UserColumnName="Semanas" type="xs:short" minOccurs="0" />
+              <xs:element name="Ubicacion" msprop:Generator_ColumnVarNameInTable="columnUbicacion" msprop:Generator_ColumnPropNameInRow="Ubicacion" msprop:Generator_ColumnPropNameInTable="UbicacionColumn" msprop:Generator_UserColumnName="Ubicacion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

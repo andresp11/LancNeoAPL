@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsBusMuestra" targetNamespace="http://www.tempuri.org/dsBusMuestra.xsd" xmlns:mstns="http://www.tempuri.org/dsBusMuestra.xsd" xmlns="http://www.tempuri.org/dsBusMuestra.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsBusMuestra" msdata:IsDataSet="true" msdata:Locale="es-MX">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Muestreador">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdObra" type="xs:string" />
+              <xs:element name="Fecha_muestra" type="xs:dateTime" />
+              <xs:element name="Descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="Ubicacion" type="xs:string" minOccurs="0" />
+              <xs:element name="NoEco" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Muestras">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Obra" type="xs:string" />
+              <xs:element name="Muestra" type="xs:int" minOccurs="0" />
+              <xs:element name="Fecha_x0020__x0020__x0020_" type="xs:dateTime" />
+              <xs:element name="Cons." type="xs:short" />
+              <xs:element name="Concretera" type="xs:string" />
+              <xs:element name="Planta" type="xs:int" minOccurs="0" />
+              <xs:element name="f_x0027_c_x0027_" type="xs:float" />
+              <xs:element name="TP_x0020__x0020__x0020__x0020__x0020_" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="TMA_x0020_" type="xs:float" />
+              <xs:element name="RV_x0020__x0020_" type="xs:float" minOccurs="0" />
+              <xs:element name="GC_x0020_" type="xs:string" minOccurs="0" />
+              <xs:element name="Agregado" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

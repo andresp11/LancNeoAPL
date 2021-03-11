@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsZetaSemanas" targetNamespace="http://tempuri.org/dsZetaSemanas.xsd" xmlns:mstns="http://tempuri.org/dsZetaSemanas.xsd" xmlns="http://tempuri.org/dsZetaSemanas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsZetaSemanas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsZetaSemanas" msprop:Generator_DataSetName="dsZetaSemanas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PrevioZ" msprop:Generator_TableClassName="PrevioZDataTable" msprop:Generator_TableVarName="tablePrevioZ" msprop:Generator_TablePropName="PrevioZ" msprop:Generator_RowDeletingName="PrevioZRowDeleting" msprop:Generator_RowChangingName="PrevioZRowChanging" msprop:Generator_RowEvHandlerName="PrevioZRowChangeEventHandler" msprop:Generator_RowDeletedName="PrevioZRowDeleted" msprop:Generator_UserTableName="PrevioZ" msprop:Generator_RowChangedName="PrevioZRowChanged" msprop:Generator_RowEvArgName="PrevioZRowChangeEvent" msprop:Generator_RowClassName="PrevioZRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdObra" msprop:Generator_ColumnVarNameInTable="columnIdObra" msprop:Generator_ColumnPropNameInRow="IdObra" msprop:Generator_ColumnPropNameInTable="IdObraColumn" msprop:Generator_UserColumnName="IdObra">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdConcepto" msprop:Generator_ColumnVarNameInTable="columnIdConcepto" msprop:Generator_ColumnPropNameInRow="IdConcepto" msprop:Generator_ColumnPropNameInTable="IdConceptoColumn" msprop:Generator_UserColumnName="IdConcepto" type="xs:short" />
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:dateTime" />
+              <xs:element name="SemCons" msprop:Generator_ColumnVarNameInTable="columnSemCons" msprop:Generator_ColumnPropNameInRow="SemCons" msprop:Generator_ColumnPropNameInTable="SemConsColumn" msprop:Generator_UserColumnName="SemCons" type="xs:short" />
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:int" minOccurs="0" />
+              <xs:element name="PreUni" msprop:Generator_ColumnVarNameInTable="columnPreUni" msprop:Generator_ColumnPropNameInRow="PreUni" msprop:Generator_ColumnPropNameInTable="PreUniColumn" msprop:Generator_UserColumnName="PreUni" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Semana" msprop:Generator_ColumnVarNameInTable="columnSemana" msprop:Generator_ColumnPropNameInRow="Semana" msprop:Generator_ColumnPropNameInTable="SemanaColumn" msprop:Generator_UserColumnName="Semana" type="xs:short" minOccurs="0" />
+              <xs:element name="Ano" msprop:Generator_ColumnVarNameInTable="columnAno" msprop:Generator_ColumnPropNameInRow="Ano" msprop:Generator_ColumnPropNameInTable="AnoColumn" msprop:Generator_UserColumnName="Ano" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

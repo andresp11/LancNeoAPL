@@ -1,0 +1,111 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="dsDatos" targetNamespace="http://www.tempuri.org/dsDatos.xsd" xmlns:mstns="http://www.tempuri.org/dsDatos.xsd"
+	xmlns="http://www.tempuri.org/dsDatos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="dsDatos" msdata:IsDataSet="true" msdata:Locale="es-MX">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="InfDistribucion">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdObra" type="xs:string" minOccurs="0" />
+							<xs:element name="Muestra" type="xs:int" minOccurs="0" />
+							<xs:element name="Tipo" type="xs:int" minOccurs="0" />
+							<xs:element name="Fecha" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Dia" type="xs:int" minOccurs="0" />
+							<xs:element name="ResKg" type="xs:float" minOccurs="0" />
+							<xs:element name="d1" type="xs:int" minOccurs="0" />
+							<xs:element name="Resul" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Total">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdObra" type="xs:string" minOccurs="0" />
+							<xs:element name="Muestra" type="xs:int" minOccurs="0" />
+							<xs:element name="Tipo" type="xs:int" minOccurs="0" />
+							<xs:element name="Fecha" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Dia" type="xs:int" minOccurs="0" />
+							<xs:element name="ResKg" type="xs:float" minOccurs="0" />
+							<xs:element name="d1" type="xs:int" minOccurs="0" />
+							<xs:element name="Resul" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Media">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdObra" type="xs:string" minOccurs="0" />
+							<xs:element name="Muestra" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Tipo" type="xs:int" minOccurs="0" />
+							<xs:element name="Fecha" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Dia" type="xs:int" minOccurs="0" />
+							<xs:element name="ResKg" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="d1" type="xs:int" minOccurs="0" />
+							<xs:element name="Resul" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Erre">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdObra" type="xs:string" minOccurs="0" />
+							<xs:element name="Muestra" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Tipo" type="xs:int" minOccurs="0" />
+							<xs:element name="Fecha" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Dia" type="xs:int" minOccurs="0" />
+							<xs:element name="ResKg" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="d1" type="xs:int" minOccurs="0" />
+							<xs:element name="Resul" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Estadisticos">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="MediaEE" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="DesEsEE" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="CoeVaEE" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="NEE" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Media07" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="DesEs07" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="CoeVa07" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="N07" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Media03" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="DesEs03" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="CoeVa03" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="N03" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Media01" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="DesEs01" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="CoeVa01" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="N01" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Semanal">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdObra" type="xs:string" minOccurs="0" />
+							<xs:element name="Muestra" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Tipo" type="xs:int" minOccurs="0" />
+							<xs:element name="Fecha" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Dia" type="xs:int" minOccurs="0" />
+							<xs:element name="ResKg" msdata:ReadOnly="true" type="xs:float" minOccurs="0" />
+							<xs:element name="d1" type="xs:int" minOccurs="0" />
+							<xs:element name="Resul" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Barra">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Cuart" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+							<xs:element name="N" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

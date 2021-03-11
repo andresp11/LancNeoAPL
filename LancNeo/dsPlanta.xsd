@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsPlanta" targetNamespace="http://www.tempuri.org/dsPlanta.xsd" xmlns:mstns="http://www.tempuri.org/dsPlanta.xsd" xmlns="http://www.tempuri.org/dsPlanta.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsPlanta" msdata:IsDataSet="true" msdata:Locale="es-MX">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Planta">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdPlanta" type="xs:int" />
+              <xs:element name="Planta" type="xs:string" minOccurs="0" />
+              <xs:element name="IdConcretera" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Planta" />
+      <xs:field xpath="mstns:IdPlanta" />
+      <xs:field xpath="mstns:IdConcretera" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
